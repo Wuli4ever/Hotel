@@ -1,0 +1,76 @@
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<LINK REL=stylesheet HREF="script/toc.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" src="script/AdminTree.js"></script>
+<STYLE TYPE='text/css'>
+.level1 {margin-left:30;font-size:20px;}
+.level2 {display:none;margin-left:38;}
+
+</STYLE>
+</HEAD>
+<BODY onload="init()" topmargin="0" leftmargin="0" rightmargin="0">
+<DIV CLASS="level1" ID='head2Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head2");'><IMG border=0 name=imEx  src="images/arrowUp.gif" id=ttt> 用户管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head2Child'>
+
+	<A href="userReg.jsp" id=ttt target=main onclick="doClick()"><LI>增加用户</LI></a>
+	<A href="UserList.jsp" id=ttt target=main><LI>用户列表</LI></a>
+	<A href="VipList.jsp" id=ttt target=main><LI>vip用户列表</LI></a>
+
+</DIV>
+
+<DIV CLASS="level1" ID='head3Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head3");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> 类别管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head3Child'>
+	<A href="CategoryAdd.jsp" id=ttt target=main><LI>添加类别</LI></a>
+	<A href="CategoryList.jsp" id=ttt target=main><LI>类别列表</LI></a>
+	
+</DIV>
+
+<DIV CLASS="level1" ID='head4Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head4");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> 房间管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head4Child'>
+	<A href="RoomAdd.jsp" id=ttt target=main><LI>添加房间</LI></a>
+	<A href="RoomList.jsp" id=ttt target=main><LI>房间列表</LI></a>
+	<A href="RoomSearch.jsp" id=ttt target=main><LI>房间搜索</LI></a>
+	<A href="RoomStateList.jsp" id=ttt target=main><LI>入住情况</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head6Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head6");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> 预定管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head6Child'>
+	<A href="BookList.jsp" id=ttt target=main><LI>预定消息</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head7Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head7");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> 餐饮管理</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head7Child'>
+	<A href="FoodAdd.jsp" id=ttt target=main><LI>添加食品</LI></a>
+	<A href="FoodList.jsp" id=ttt target=main><LI>食品列表</LI></a>
+	<A href="Search2.jsp" id=ttt target=main><LI>内容搜索</LI></a>
+	<A href="OrderList.jsp" id=ttt target=main><LI>订单列表</LI></a>
+</DIV>
+
+<DIV CLASS="level1" ID='head8Parent'>
+	<A class=OUTDENT href="" onclick='return expandIt("head8");' id=ttt><IMG border=0 height=13 name=imEx  src="images/arrowUp.gif" width=17> 数据统计</a>
+</DIV>
+
+<DIV CLASS="level2" ID='head8Child'>
+      <A href="FoodStatic.jsp" id=ttt target=main><LI>食品统计</LI></a>
+      <A href="RoomItemList.jsp" id=ttt target=main><LI>住房信息</LI></a>
+</DIV>
+
+</BODY>
+</html>

@@ -1,0 +1,297 @@
+body {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+select {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+body {
+	font: 12px/1.5 "Microsoft YaHei"; font-size-adjust: none; font-stretch: normal;
+}
+button {
+	font: 12px/1.5 "Microsoft YaHei"; font-size-adjust: none; font-stretch: normal;
+}
+input {
+	font: 12px/1.5 "Microsoft YaHei"; font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 12px/1.5 "Microsoft YaHei"; font-size-adjust: none; font-stretch: normal;
+}
+textarea {
+	font: 12px/1.5 "Microsoft YaHei"; font-size-adjust: none; font-stretch: normal;
+}
+button {
+	font-size: 100%; vertical-align: middle;
+}
+input {
+	font-size: 100%; vertical-align: middle;
+}
+select {
+	font-size: 100%; vertical-align: middle;
+}
+textarea {
+	font-size: 100%; vertical-align: middle;
+}
+textarea {
+	overflow: auto; vertical-align: top;
+}
+input {
+	line-height: normal; vertical-align: middle;
+}
+button {
+	line-height: normal; vertical-align: middle;
+}
+button {
+	cursor: pointer;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+h1 {
+	font-family: "Microsoft YaHei"; font-size: 100%; font-weight: normal;
+}
+h2 {
+	font-family: "Microsoft YaHei"; font-size: 100%; font-weight: normal;
+}
+h3 {
+	font-family: "Microsoft YaHei"; font-size: 100%; font-weight: normal;
+}
+h4 {
+	font-family: "Microsoft YaHei"; font-size: 100%; font-weight: normal;
+}
+h5 {
+	font-family: "Microsoft YaHei"; font-size: 100%; font-weight: normal;
+}
+h6 {
+	font-family: "Microsoft YaHei"; font-size: 100%; font-weight: normal;
+}
+a {
+	color: rgb(89, 89, 89); text-decoration: none;
+}
+a:active {
+	outline: 0px; color: rgb(0, 123, 204); text-decoration: underline;
+}
+a:hover {
+	outline: 0px; color: rgb(0, 123, 204); text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+}
+ol {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0px currentColor; border-image: none; vertical-align: top;
+}
+address {
+	font-style: normal;
+}
+cite {
+	font-style: normal;
+}
+dfn {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+var {
+	font-style: normal;
+}
+code {
+	font-family: "Microsoft YaHei",Courier,monospace;
+}
+kbd {
+	font-family: "Microsoft YaHei",Courier,monospace;
+}
+pre {
+	font-family: "Microsoft YaHei",Courier,monospace;
+}
+samp {
+	font-family: "Microsoft YaHei",Courier,monospace;
+}
+tt {
+	font-family: "Microsoft YaHei",Courier,monospace;
+}
+abbr {
+	border: 0px currentColor; border-image: none; font-variant: normal;
+}
+acronym {
+	border: 0px currentColor; border-image: none; font-variant: normal;
+}
+body {
+	background: rgb(255, 255, 255); color: rgb(89, 89, 89);
+}
+.webMain {
+	margin: 0px auto; width: 1024px;
+}
+:focus {
+	outline: 0px;
+}
+.posR {
+	position: relative;
+}
+.clearfix::before {
+	line-height: 0; display: table; content: "";
+}
+.clearfix::after {
+	line-height: 0; display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.clearfix {
+	
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+main {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+summary {
+	display: block;
+}
+audio {
+	display: inline-block;
+}
+canvas {
+	display: inline-block;
+}
+video {
+	display: inline-block;
+}
+#page {
+	padding: 10px; height: 25px; text-align: center;
+}
+#page a {
+	border: 1px solid rgb(228, 228, 228); border-image: none; width: 23px; height: 23px; text-align: center; line-height: 23px; display: inline-block;
+}
+#page span {
+	border: 1px solid rgb(228, 228, 228); border-image: none; width: 23px; height: 23px; text-align: center; line-height: 23px; display: inline-block;
+}
+#page a:hover {
+	background: rgb(34, 119, 204); border: 1px solid rgb(34, 119, 204); border-image: none; color: rgb(255, 255, 255); text-decoration: none;
+}
+#page a.current {
+	background: rgb(34, 119, 204); border: 1px solid rgb(34, 119, 204); border-image: none; color: rgb(255, 255, 255); text-decoration: none;
+}
+#page a.prev {
+	width: 70px;
+}
+#page a.next {
+	width: 70px;
+}
+#page span {
+	border: currentColor; border-image: none; width: 25px; height: 25px;
+}
+#page input {
+	border: 1px solid rgb(228, 228, 228); border-image: none; width: 30px; height: 23px; text-align: center; line-height: 23px;
+}
+#page a.go {
+	background: rgb(34, 119, 204); border: 1px solid rgb(34, 119, 204); border-image: none; width: 40px; color: rgb(255, 255, 255);
+}
+#page a.go:hover {
+	background: rgb(20, 100, 180);
+}

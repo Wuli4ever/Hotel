@@ -1,0 +1,3141 @@
+.headTop {
+	margin: 0px auto; width: 1024px;
+}
+.headTop .logo {
+	padding-top: 3px; float: left;
+}
+.headTop .show {
+	padding: 15px 0px 0px 20px; float: left;
+}
+.headTop .rightIc {
+	padding-top: 15px; float: right;
+}
+.headTop .rightIc dl {
+	padding-left: 10px; display: inline-block;
+}
+.headTop .rightIc dl dt {
+	background: url("../images/ky_icon_bg.png") no-repeat; width: 41px; height: 41px; text-indent: -9999px; float: left; display: block;
+}
+.headTop .rightIc dl dt.icon_1 {
+	background-position: -26px 0px;
+}
+.headTop .rightIc dl dt.icon_2 {
+	background-position: -68px 0px;
+}
+.headTop .rightIc dl dd {
+	line-height: 18px; padding-top: 2px; font-size: 14px; margin-left: 10px; float: left;
+}
+.headTop .rightIc dl dd strong {
+	color: rgb(255, 108, 103); display: block;
+}
+.headTop .rightIc dl dd span {
+	color: rgb(24, 94, 187); display: block;
+}
+.headTop .zhOrEn {
+	padding-top: 25px; padding-right: 5px; float: right;
+}
+.headTop .zhOrEn a {
+	margin: 0px 5px;
+}
+.navBg {
+	background: rgb(37, 119, 227); margin: 0px auto; width: 100%; height: 40px;
+}
+.navBg .nav {
+	height: 40px; float: left;
+}
+.navBg .nav a {
+	background: url("../images/nav_border.png") no-repeat right 13px; padding: 0px 15px; height: 40px; color: rgb(255, 255, 255); line-height: 40px; font-size: 14px; float: left; display: block; position: relative;
+}
+.navBg .nav a:hover {
+	background: rgb(24, 94, 187); text-decoration: none;
+}
+.navBg .nav a span {
+	background: url("../images/ky_icon_bg.png") no-repeat 0px 0px; top: -8px; width: 25px; height: 18px; right: 8px; display: block; position: absolute;
+}
+.navBg .userAbout {
+	background: rgb(24, 94, 187); padding: 0px 10px; height: 40px; color: rgb(255, 255, 255); line-height: 40px; font-size: 14px; float: right;
+}
+.navBg .userAbout span {
+	padding: 0px 10px; float: left; display: block;
+}
+.navBg .userAbout a {
+	padding: 0px 10px; float: left; display: block;
+}
+.navBg .userAbout a {
+	background: url("../images/nav_border_2.png") no-repeat right 13px; color: rgb(255, 255, 255);
+}
+.navBg .nav a.noBorder {
+	background-images: none;
+}
+.navBg .userAbout a.noBorder {
+	background: none;
+}
+.bannerAndSearch {
+	position: relative;
+}
+#imgSlider {
+	background: url("../images/banner_loading.gif") no-repeat center rgb(255, 255, 255); width: 100%; height: 420px; overflow: hidden; position: relative; min-width: 1024px;
+}
+#imgSlider .eachImg {
+	left: 0px; top: 0px; width: 100%; height: 420px; display: none; position: absolute; z-index: 10;
+}
+#imgSlider .eachImg a {
+	width: 100%; height: 420px; display: block;
+}
+#imgSlider .eachImg a img {
+	display: none;
+}
+#imgSlider .clickIcon {
+	padding: 0px; left: 0px; height: 32px; text-align: right; right: 0px; bottom: 1px; position: absolute; z-index: 20;
+}
+#imgSlider .clickIcon a {
+	background: rgba(0, 0, 0, 0.5); padding: 0px 15px; width: auto; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 12px; margin-top: 2px; margin-right: 1px; display: inline-block;
+}
+#imgSlider .clickIcon a:hover {
+	background: rgba(255, 255, 255, 1); color: rgb(57, 131, 229); text-decoration: none; margin-top: 0px; border-top-color: rgb(57, 131, 229); border-top-width: 2px; border-top-style: solid; opacity: 1;
+}
+#imgSlider .clickIcon a.current {
+	background: rgba(255, 255, 255, 1); color: rgb(57, 131, 229); text-decoration: none; margin-top: 0px; border-top-color: rgb(57, 131, 229); border-top-width: 2px; border-top-style: solid; opacity: 1;
+}
+.bannerAndSearch .searchBox {
+	left: 0px; top: 50px; width: 425px; right: 0px; position: absolute; z-index: 9999;
+}
+.bannerAndSearch .searchBg {
+	background: rgba(255, 255, 255, 0.8); padding: 10px 15px; width: 390px; height: 300px;
+}
+.bannerAndSearch .searchBg h2 {
+	padding: 5px; color: rgb(37, 119, 227); font-size: 14px; border-bottom-color: rgb(37, 119, 227); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.bannerAndSearch .searchBg dl {
+	height: 35px; margin-top: 15px;
+}
+.bannerAndSearch .searchBg dl dt {
+	width: 50px; height: 35px; text-align: right; line-height: 35px; font-size: 14px; float: left; display: block;
+}
+.bannerAndSearch .searchBg dl dd {
+	width: 330px; margin-left: 10px; float: left; display: block; position: relative; z-index: 5;
+}
+.bannerAndSearch .searchBg dl dd.newZindex {
+	z-index: 10;
+}
+.bannerAndSearch .searchBg dl dd .textIn {
+	background: rgb(255, 255, 255); padding: 0px 10px; border: 1px solid rgb(207, 207, 207); border-image: none; height: 33px; line-height: 33px; display: inline-block;
+}
+.bannerAndSearch .searchBg dl dd .textIn_1 {
+	width: 308px;
+}
+.bannerAndSearch .searchBg dl dd .textIn_2 {
+	width: 119px;
+}
+.bannerAndSearch .searchBg dl dd .textIn_3 {
+	width: 180px; margin-left: 10px;
+}
+.bannerAndSearch .searchBg dl dd #check {
+	vertical-align: middle; cursor: pointer;
+}
+.bannerAndSearch .searchBg dl dd label {
+	vertical-align: middle; cursor: pointer;
+}
+.bannerAndSearch .searchBg dl dd span.tui {
+	width: 40px; text-align: center; font-size: 14px; display: inline-block;
+}
+.bannerAndSearch .searchBg dl dd .btn_1 {
+	background: rgb(255, 153, 0); border: 1px solid rgb(255, 153, 0); border-image: none; width: 158px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; float: left; display: block;
+}
+.bannerAndSearch .searchBg dl dd .btn_1 i {
+	background: url("../images/ky_icon_bg.png") no-repeat -355px 0px; width: 18px; height: 18px; margin-top: -3px; margin-right: 8px; vertical-align: middle; display: inline-block;
+}
+.bannerAndSearch .searchBg dl dd .btn_2 {
+	background: rgb(255, 255, 255); border: 1px solid rgb(207, 207, 207); border-image: none; width: 158px; height: 30px; text-align: center; color: rgb(89, 89, 89); line-height: 30px; font-size: 14px; margin-left: 10px; float: left; display: block;
+}
+.bannerAndSearch .searchBg dl dd .btn_2 i {
+	background: url("../images/ky_icon_bg.png") no-repeat -355px -20px; width: 15px; height: 20px; margin-top: -3px; margin-right: 5px; vertical-align: middle; display: inline-block;
+}
+.bannerAndSearch .searchBg dl dd .posBox {
+	background: rgb(255, 255, 255); padding: 5px 10px 10px; border: 1px solid rgb(207, 207, 207); border-image: none; left: 0px; top: 34px; width: 400px; position: absolute;
+}
+.bannerAndSearch .searchBg dl dd .destination_1 {
+	display: none;
+}
+.bannerAndSearch .searchBg dl dd .destination_2 {
+	display: none;
+}
+.bannerAndSearch .searchBg dl dd .destination_3 {
+	display: none;
+}
+.bannerAndSearch .searchBg dl dd .destination_1 h4 {
+	color: rgb(146, 146, 146); padding-bottom: 5px; font-size: 14px;
+}
+.bannerAndSearch .searchBg dl dd .posBox a.close {
+	margin: 0px; width: 20px; height: 20px; text-align: center; line-height: 20px; font-size: 20px; float: right; display: block;
+}
+.bannerAndSearch .searchBg dl dd .posBox a.close:hover {
+	text-decoration: none;
+}
+.bannerAndSearch .searchBg dl dd .destination_1 h3 {
+	color: rgb(0, 102, 205); font-size: 14px;
+}
+.bannerAndSearch .searchBg dl dd .destination_1 a {
+	line-height: 20px; margin-right: 20px; white-space: nowrap;
+}
+.bannerAndSearch .searchBg dl dd .destination_1 .choose {
+	margin: 10px 0px 5px; height: 25px; line-height: 25px;
+}
+.bannerAndSearch .searchBg dl dd .destination_1 .choose a {
+	margin: 0px; padding: 0px 10px; height: 23px; border-bottom-color: rgb(146, 146, 146); border-bottom-width: 2px; border-bottom-style: solid; float: left; display: block;
+}
+.bannerAndSearch .searchBg dl dd .destination_1 .choose a.current {
+	color: rgb(37, 119, 227); border-bottom-color: rgb(37, 119, 227); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.bannerAndSearch .searchBg dl dd .destination_2 {
+	padding: 5px 0px 10px;
+}
+.bannerAndSearch .searchBg dl dd .destination_2 h4 {
+	margin: 0px 10px 10px; padding: 3px 0px; font-size: 14px; border-bottom-color: rgb(146, 146, 146); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.bannerAndSearch .searchBg dl dd .destination_2 li a {
+	padding: 0px 10px; height: 25px; line-height: 25px; font-size: 14px; display: block;
+}
+.bannerAndSearch .searchBg dl dd .destination_2 li a:hover {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); text-decoration: none;
+}
+.bannerAndSearch .searchBg dl dd .destination_2 .page {
+	padding: 10px 0px 0px; text-align: center;
+}
+.bannerAndSearch .searchBg dl dd .destination_2 .page a {
+	font-size: 14px; margin-right: 5px;
+}
+.bannerAndSearch .searchBg dl dd .destination_3 h4 {
+	padding: 3px 0px; font-size: 14px;
+}
+.bannerAndSearch .searchBg dl dd .destination_3 a {
+	line-height: 20px; margin-right: 15px; white-space: nowrap;
+}
+.youLikeBox {
+	padding-top: 5px;
+}
+.youLikeBox .youLikeMain {
+	width: 750px; float: left;
+}
+.youLikeBox .youLikeMain h2 {
+	height: 35px; color: rgb(0, 102, 207); line-height: 35px; font-size: 14px; margin-bottom: 10px; border-bottom-color: rgb(0, 102, 207); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.youLikeBox .youLikeMain h2 a {
+	color: rgb(0, 102, 207); margin-right: 10px; float: right;
+}
+.youLikeBox .youLikeMain h2 span {
+	background: url("../images/sanj_top.png") no-repeat bottom; padding: 0px 10px; height: 35px; line-height: 35px; float: left; display: block;
+}
+#slider {
+	width: 750px; height: 305px; overflow: hidden; position: relative;
+}
+#slider .slider_content {
+	left: 0px; top: 0px; width: 10000px; height: 305px; position: absolute; z-index: 3;
+}
+#slider .slider_content .each {
+	padding: 5px; border: 1px solid rgb(175, 175, 175); border-image: none; width: 153px; height: 293px; margin-right: 30px; float: left;
+}
+#slider .slider_content .each .aImg {
+	width: 153px; height: 153px; display: block;
+}
+#slider .slider_content .each .name {
+	margin: 8px 0px; height: 36px; overflow: hidden;
+}
+#slider .slider_content .each .price {
+	padding: 10px 0px; color: rgb(245, 86, 6); font-size: 16px; border-top-color: rgb(175, 175, 175); border-top-width: 1px; border-top-style: dashed;
+}
+#slider .slider_content .each .price span {
+	color: rgb(89, 89, 89); padding-top: 8px; font-size: 12px; float: right;
+}
+#slider .slider_content .each .buy {
+	background: rgb(255, 153, 0); height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 14px; display: block;
+}
+#slider .slider_content .each .buy:hover {
+	background: rgb(213, 129, 3); text-decoration: none;
+}
+.prAndNe {
+	height: 40px; text-align: center; margin-top: 5px;
+}
+.prAndNe a {
+	font: 700 33px/normal arial; width: 40px; height: 40px; color: rgb(204, 204, 204); display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.prAndNe a:hover {
+	color: rgb(0, 123, 204); text-decoration: none;
+}
+.youLikeBox .kyBrand {
+	width: 232px; float: right;
+}
+.youLikeBox .kyBrand h2 {
+	height: 35px; color: rgb(0, 102, 207); line-height: 35px; font-size: 14px; margin-bottom: 10px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.youLikeBox .kyBrand h3 {
+	padding: 3px 0px; font-size: 16px;
+}
+.newAct {
+	margin: 0px auto; padding: 10px 0px; width: 1024px;
+}
+.newAct h2 {
+	color: rgb(0, 102, 207); padding-bottom: 10px; font-size: 14px;
+}
+.whyChoose h2 {
+	color: rgb(0, 102, 207); padding-bottom: 10px; font-size: 14px;
+}
+.newAct h2 a {
+	color: rgb(0, 102, 207); float: right;
+}
+.newAct .actBox {
+	width: 1024px; overflow: hidden;
+}
+.newAct .actBox .actCon {
+	width: 1100px;
+}
+.newAct .actBox .actCon .actEach {
+	width: 243px; margin-right: 17px; float: left;
+}
+.newAct .actBox .actCon .actEach p {
+	background: rgb(241, 241, 241); padding: 5px 10px; height: 45px; line-height: 22px; overflow: hidden; font-size: 14px;
+}
+.whyChoose {
+	margin: 0px auto; padding: 10px 0px; width: 1024px;
+}
+.whyChoose .whyCon {
+	border: 5px solid rgb(232, 232, 232); border-image: none;
+}
+.whyChoose .whyCon dl {
+	padding: 15px 25px 10px 20px; width: 200px; float: left;
+}
+.whyChoose .whyCon dl dt {
+	width: 48px; height: 48px; float: left; display: block;
+}
+.whyChoose .whyCon dl dt.icon_1 {
+	background: url("../images/freeTour.png") no-repeat;
+}
+.whyChoose .whyCon dl dt.icon_2 {
+	background: url("../images/member.png") no-repeat;
+}
+.whyChoose .whyCon dl dt.icon_3 {
+	background: url("../images/gift.png") no-repeat;
+}
+.whyChoose .whyCon dl dt.icon_4 {
+	background: url("../images/service.png") no-repeat;
+}
+.whyChoose .whyCon dl dd {
+	width: 142px; margin-left: 10px; float: left; display: block;
+}
+.whyChoose .whyCon dl dd h3 {
+	color: rgb(0, 0, 0); font-size: 16px;
+}
+.footer {
+	margin: 0px auto; padding: 20px 0px; width: 100%;
+}
+.footer .footerBg {
+	background: url("../images/footer_bj.jpg") 0px 0px; padding: 15px 0px; border-top-color: rgb(214, 214, 214); border-top-width: 1px; border-top-style: solid;
+}
+.footer .footerBg .footerMainBox {
+	margin: 0px auto; width: 1024px;
+}
+.footer .footerBg .footerMainBox .each {
+	width: 152px; padding-left: 52px; float: left;
+}
+.footer .footerBg .footerMainBox .each h3 {
+	padding-bottom: 5px; font-size: 16px;
+}
+.footer .footerBg .footerMainBox .each a {
+	padding-bottom: 5px; font-size: 14px; display: block;
+}
+.footer .copyRight {
+	text-align: center; line-height: 25px; padding-top: 20px;
+}
+.fexdBox {
+	background: rgba(0, 0, 0, 0.7); left: 0px; width: 100%; height: 190px; right: 0px; bottom: 0px; position: fixed; z-index: 999;
+}
+.fexdBox .main {
+	margin: 0px auto; width: 1024px; padding-top: 8px; position: relative;
+}
+.fexdBox .main .boxClose {
+	background: url("../images/ky_icon_bg.png") no-repeat -306px 0px; top: 8px; width: 35px; height: 35px; right: 0px; text-indent: -9999px; display: block; position: absolute;
+}
+.allChooseBox {
+	border-width: 2px 1px medium; border-style: solid solid none; border-color: rgb(116, 176, 255) rgb(228, 228, 228) currentColor; border-image: none; margin-top: 20px;
+}
+.allChooseBox .chooseInputBox {
+	background: rgb(255, 252, 216); padding: 8px; height: 25px;
+}
+.hotelPrice .chooseInputBox {
+	background: rgb(255, 252, 216); padding: 8px; height: 25px;
+}
+.allChooseBox .chooseInputBox span {
+	height: 25px; line-height: 25px; margin-right: 8px; float: left; display: block;
+}
+.hotelPrice .chooseInputBox span {
+	height: 25px; line-height: 25px; margin-right: 8px; float: left; display: block;
+}
+.allChooseBox .chooseInputBox .textIn {
+	padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; height: 23px; line-height: 23px; margin-right: 15px; float: left; display: block;
+}
+.hotelPrice .chooseInputBox .textIn {
+	padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; height: 23px; line-height: 23px; margin-right: 15px; float: left; display: block;
+}
+.allChooseBox .chooseInputBox .textIn_1 {
+	width: 80px;
+}
+.hotelPrice .chooseInputBox .textIn_1 {
+	width: 80px;
+}
+.allChooseBox .chooseInputBox .textIn_2 {
+	background: url("../images/time_icon.jpg") no-repeat 150px 3px rgb(255, 255, 255); width: 160px;
+}
+.hotelPrice .chooseInputBox .textIn_2 {
+	background: url("../images/time_icon.jpg") no-repeat 150px 3px rgb(255, 255, 255); width: 160px;
+}
+.allChooseBox .chooseInputBox .textIn_3 {
+	width: 200px;
+}
+.hotelPrice .chooseInputBox .textIn_3 {
+	width: 200px;
+}
+.allChooseBox .chooseInputBox .searchBtn {
+	background: rgb(255, 153, 0); padding: 0px 10px; border: currentColor; border-image: none; height: 25px; color: rgb(255, 255, 255); line-height: 25px; float: left; display: block;
+}
+.hotelPrice .chooseInputBox .searchBtn {
+	background: rgb(255, 153, 0); padding: 0px 10px; border: currentColor; border-image: none; height: 25px; color: rgb(255, 255, 255); line-height: 25px; float: left; display: block;
+}
+.allChooseBox .chooseInputBox .searchBtn:hover {
+	background: rgb(208, 128, 8); text-decoration: none;
+}
+.hotelPrice .chooseInputBox .searchBtn:hover {
+	background: rgb(208, 128, 8); text-decoration: none;
+}
+.allChooseBox dl {
+	padding: 10px 0px; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.allChooseBox dl dt {
+	width: 105px; height: 25px; text-align: right; line-height: 25px; font-size: 14px; float: left; display: block;
+}
+.allChooseBox dl dd {
+	margin-left: 115px; position: relative;
+}
+.allChooseBox dl dd .all {
+	background: rgb(37, 119, 227); left: 0px; top: 3px; width: 40px; height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; display: block; position: absolute;
+}
+.allChooseBox dl dd .allGray {
+	background: rgb(153, 153, 153);
+}
+.allChooseBox dl dd .each .eachChoose {
+	height: 27px; padding-left: 50px;
+}
+.allChooseBox dl dd .each .eachChoose a {
+	padding: 0px 10px; height: 27px; line-height: 27px; font-size: 14px; float: left; display: block;
+}
+.allChooseBox dl dd .each .eachChoose a.current {
+	background: rgb(238, 244, 253);
+}
+.allChooseBox dl dd .each .bg {
+	background: rgb(238, 244, 253);
+}
+.allChooseBox dl dd .each .allListBox {
+	padding-left: 50px; position: relative;
+}
+.allChooseBox dl dd .each .allList {
+	width: 720px; height: 25px; overflow: hidden;
+}
+.allChooseBox dl dd .each .allList .list span {
+	width: 120px; height: 25px; line-height: 25px; font-size: 14px; float: left; display: block;
+}
+.allChooseBox dl dd .each .allList .list span input {
+	vertical-align: middle;
+}
+.allChooseBox dl dd .each .allList .list span label {
+	vertical-align: middle;
+}
+.allChooseBox dl dd .each .allList .list span label {
+	margin-left: 5px; cursor: pointer;
+}
+.allChooseBox dl dd .each .allListBox .more {
+	background: url("../images/sanj_bottom.png") no-repeat right; left: 780px; top: 0px; width: 45px; height: 25px; color: rgb(37, 119, 227); line-height: 25px; font-size: 14px; display: block; position: absolute;
+}
+.productList {
+	padding-top: 20px;
+}
+.productList .leftList {
+	width: 710px; float: left;
+}
+.productList .leftList .proChoose {
+	background: rgb(241, 241, 241); padding: 10px; height: 25px;
+}
+.productList .leftList .proChoose a {
+	padding: 0px 15px; border: 1px solid rgb(217, 217, 217); border-image: none; height: 25px; line-height: 25px; font-size: 14px; margin-right: 2px; float: left; display: block;
+}
+.productList .leftList .proChoose a.current {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255);
+}
+.productList .leftList dl {
+	padding: 15px 0px; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.productList .leftList dl dt {
+	width: 218px; float: left; display: block;
+}
+.productList .leftList dl dt p {
+	background: rgb(237, 247, 255); padding: 15px; text-align: center; font-size: 14px; margin-top: 5px;
+}
+.productList .leftList dl dt p span {
+	color: rgb(49, 138, 204); display: block;
+}
+.productList .leftList dl dt p strong {
+	margin: 0px 5px; color: rgb(49, 138, 204); font-size: 18px; font-weight: normal;
+}
+.productList .leftList dl dd {
+	width: 480px; float: right; display: block;
+}
+.productList .leftList dl dd h2 {
+	color: rgb(37, 119, 227); padding-bottom: 5px; font-size: 14px;
+}
+.productList .leftList dl dd h2 img {
+	margin-top: -3px; margin-left: 2px; vertical-align: middle;
+}
+.productList .leftList dl dd .moreChoose {
+	height: 25px; padding-bottom: 5px;
+}
+.productList .leftList dl dd .moreChoose a {
+	padding: 0px 10px 0px 20px; height: 25px; line-height: 25px; font-size: 14px; float: left; display: block;
+}
+.productList .leftList dl dd .moreChoose a.topMoney {
+	background: url("../images/icon_1.png") no-repeat 0px 5px; color: rgb(255, 80, 80);
+}
+.productList .leftList dl dd .moreChoose a.topHotal {
+	background: url("../images/icon_2.png") no-repeat 0px 5px; color: rgb(255, 153, 0); padding-left: 22px;
+}
+.productList .leftList dl dd .moreChoose a.topImg {
+	background: url("../images/icon_3.png") no-repeat 0px 5px; color: rgb(37, 119, 227); padding-left: 22px;
+}
+.productList .leftList dl dd .detailInfo {
+	padding: 0px 125px 10px 0px; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: dashed; position: relative;
+}
+.productList .leftList dl dd .detailInfo p {
+	font-size: 14px;
+}
+.productList .leftList dl dd .detailInfo .price {
+	top: 0px; width: 100px; text-align: center; right: 0px; position: absolute;
+}
+.productList .leftList dl dd .detailInfo .price strong {
+	color: rgb(255, 153, 0); font-size: 20px;
+}
+.productList .leftList dl dd .detailInfo .price a {
+	background: rgb(255, 153, 0); margin: 10px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; display: block;
+}
+.productList .leftList dl dd .detailInfo .price a:hover {
+	background: rgb(219, 131, 0); text-decoration: none;
+}
+.productList .leftList dl dd .ads {
+	padding: 10px 125px 0px 0px; position: relative;
+}
+.productList .leftList dl dd .ads p {
+	font-size: 14px;
+}
+.productList .leftList dl dd .ads a {
+	right: 10px; bottom: 0px; color: rgb(37, 119, 227); font-size: 14px; position: absolute;
+}
+.productList .rightPro {
+	width: 302px; float: right;
+}
+.productList .rightPro .map {
+	width: 302px; height: 410px;
+}
+.productList .rightPro h2 {
+	padding: 10px 0px; font-size: 16px;
+}
+.productList .rightPro .pro .aImg {
+	width: 302px; height: 108px; display: block; position: relative;
+}
+.productList .rightPro .pro .aImg span {
+	background: rgb(255, 255, 255); padding: 5px 10px; left: 1px; top: 1px; font-size: 14px; display: block; position: absolute;
+}
+.productList .rightPro .pro p {
+	padding: 8px 0px; font-size: 14px;
+}
+#gray {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 9999;
+}
+#imgShow {
+	background: rgb(255, 255, 255); margin: -235px 0px 0px -475px; left: 50%; top: 50%; width: 950px; height: 470px; display: none; position: fixed; z-index: 10000;
+}
+#imgShow .left {
+	background: rgb(233, 236, 244); width: 665px; height: 470px; float: left;
+}
+#imgShow2 .left {
+	background: rgb(233, 236, 244); width: 665px; height: 470px; float: left;
+}
+#imgShow2 {
+	background: rgb(255, 255, 255); width: 950px; height: 470px; display: block;
+}
+#img_slider {
+	margin: 30px auto 0px; width: 530px; height: 353px; overflow: hidden; position: relative;
+}
+#img_slider .slider_content {
+	left: 0px; top: 0px; width: 10000px; height: 353px; position: absolute; z-index: 5;
+}
+#img_slider .slider_content img {
+	margin: 0px; padding: 0px; float: left; display: inline-block;
+}
+#img_slider a.prev {
+	background: url("../images/next_prev_bj.png") no-repeat rgb(102, 102, 102); top: 130px; width: 45px; height: 90px; text-indent: -9999px; display: block; position: absolute; z-index: 6; cursor: pointer; opacity: 0.5;
+}
+#img_slider a.next {
+	background: url("../images/next_prev_bj.png") no-repeat rgb(102, 102, 102); top: 130px; width: 45px; height: 90px; text-indent: -9999px; display: block; position: absolute; z-index: 6; cursor: pointer; opacity: 0.5;
+}
+#img_slider a.prev {
+	background-position: 0px 0px; left: 10px;
+}
+#img_slider a.next {
+	background-position: -45px 0px; right: 10px;
+}
+#imgShow .left h3 {
+	text-align: center; padding-top: 25px; font-size: 16px;
+}
+#imgShow2 .left h3 {
+	text-align: center; padding-top: 25px; font-size: 16px;
+}
+#imgShow .right {
+	margin: 10px 10px 0px 0px; width: 260px; float: right;
+}
+#imgShow2 .right {
+	margin: 10px 10px 0px 0px; width: 260px; float: right;
+}
+#imgShow .right h2 {
+	padding-bottom: 5px; font-size: 16px;
+}
+#imgShow2 .right h2 {
+	padding-bottom: 5px; font-size: 16px;
+}
+#imgShow .right p {
+	padding-bottom: 10px; font-size: 14px;
+}
+#imgShow2 .right p {
+	padding-bottom: 10px; font-size: 14px;
+}
+#imgShow .right .smallImg {
+	width: 260px; height: 420px; overflow: hidden; -ms-overflow-y: auto;
+}
+#imgShow2 .right .smallImg {
+	width: 260px; height: 420px; overflow: hidden; -ms-overflow-y: auto;
+}
+#imgShow .right .smallImg a {
+	background: rgb(255, 255, 255); margin: 0px 5px 5px 0px; padding: 2px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 68px; height: 68px; float: left; display: block;
+}
+#imgShow2 .right .smallImg a {
+	background: rgb(255, 255, 255); margin: 0px 5px 5px 0px; padding: 2px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 68px; height: 68px; float: left; display: block;
+}
+#imgShow .right .smallImg a:hover {
+	border: 1px solid rgb(255, 153, 0); border-image: none;
+}
+#imgShow .right .smallImg a.current {
+	border: 1px solid rgb(255, 153, 0); border-image: none;
+}
+#imgShow2 .right .smallImg a:hover {
+	border: 1px solid rgb(255, 153, 0); border-image: none;
+}
+#imgShow2 .right .smallImg a.current {
+	border: 1px solid rgb(255, 153, 0); border-image: none;
+}
+#imgShow .box {
+	position: relative;
+}
+#imgShow2 .box {
+	position: relative;
+}
+#allActy .box {
+	position: relative;
+}
+#imgShow .box .closeBox {
+	background: url("../images/ky_icon_bg.png") no-repeat -306px 0px; top: 0px; width: 35px; height: 35px; right: -40px; text-indent: -9999px; display: block; position: absolute;
+}
+#allActy .box .closeBox {
+	background: url("../images/ky_icon_bg.png") no-repeat -306px 0px; top: 0px; width: 35px; height: 35px; right: -40px; text-indent: -9999px; display: block; position: absolute;
+}
+#allActy {
+	background: rgb(255, 255, 255); margin: -235px 0px 0px -370px; left: 50%; top: 50%; width: 740px; height: 470px; display: none; position: fixed; z-index: 10000;
+}
+#allActy .actList {
+	margin: 10px auto 0px; width: 720px; height: 450px; overflow: hidden; -ms-overflow-y: auto;
+}
+#allActy .box .closeBox {
+	top: -10px;
+}
+#allActy .actList .actEach {
+	padding-bottom: 10px;
+}
+#allActy .actList .actEach .aImg {
+	width: 267px; float: left; display: block;
+}
+#allActy .actList .actEach .actDetail {
+	width: 260px; margin-left: 20px; float: left;
+}
+#allActy .actList .actEach .actDetail h3 {
+	color: rgb(37, 119, 227); padding-bottom: 5px; font-size: 14px;
+}
+#allActy .actList .actEach .actDetail p {
+	padding-bottom: 5px; font-size: 14px;
+}
+#allActy .actList .actEach .actDetail p a {
+	color: rgb(37, 119, 227);
+}
+#allActy .actList .actEach .actDetail p span {
+	color: rgb(37, 119, 227); float: right;
+}
+#allActy .actList .actEach .see {
+	background: rgb(255, 153, 0); margin: 30px 0px 0px 40px; width: 80px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 27px; font-size: 14px; float: left; display: block;
+}
+.hotelPrice {
+	padding-top: 20px;
+}
+#steps {
+	padding: 15px 0px; height: 31px; text-align: center;
+}
+#steps .each {
+	width: 240px; height: 31px; text-align: left; color: rgb(146, 146, 146); line-height: 31px; font-size: 14px; display: inline-block;
+}
+#steps .each span {
+	background: url("../images/steps_off.png") no-repeat 0px 0px; margin: 6px 6px 0px 0px; width: 128px; height: 19px; float: left; display: block;
+}
+#steps .current {
+	color: rgb(37, 119, 227);
+}
+#steps .current span {
+	background: url("../images/steps_on.png") no-repeat 0px 0px;
+}
+.hotelPrice .mainHotel {
+	padding-bottom: 20px;
+}
+.hotelPrice .mainHotel .hotelPoint {
+	padding: 30px 20px 0px 0px; width: 200px; text-align: right; font-size: 14px; float: right;
+}
+.hotelPrice .mainHotel .hotelPoint strong {
+	margin: 0px 5px; color: rgb(37, 119, 227); font-size: 20px; font-weight: normal;
+}
+.hotelPrice .mainHotel .hotelPoint span {
+	color: rgb(255, 153, 0); padding-top: 5px; font-size: 26px; display: block;
+}
+.hotelPrice .mainHotel dl {
+	padding-left: 20px; float: left;
+}
+.hotelPrice .mainHotel dl dt {
+	width: 155px; float: left; display: block;
+}
+.hotelPrice .mainHotel dl dd {
+	margin-left: 180px;
+}
+.hotelPrice .mainHotel dl dd h2 {
+	color: rgb(37, 119, 227); padding-bottom: 5px; font-size: 14px;
+}
+.hotelPrice .mainHotel dl dd h2 img {
+	margin: -2px 0px 0px 5px; vertical-align: middle;
+}
+.hotelPrice .mainHotel dl dd p {
+	padding-bottom: 5px; font-size: 14px;
+}
+.hotelPrice .mainHotel dl dd p img {
+	margin-right: 10px;
+}
+.priceDetail .detailChoose {
+	height: 33px; border-bottom-color: rgb(37, 119, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.priceDetail .detailChoose a {
+	background: rgb(241, 241, 241); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(214, 214, 214) rgb(214, 214, 214) currentColor; padding: 0px 15px; border-image: none; height: 32px; line-height: 32px; font-size: 14px; margin-right: 1px; float: left; display: block;
+}
+.priceDetail .detailChoose a.current {
+	background: rgb(37, 119, 227); border-color: rgb(37, 119, 227); color: rgb(255, 255, 255);
+}
+.priceDetail .priceInfo .timeSearch {
+	padding: 12px 25px; height: 25px;
+}
+.priceDetail .priceInfo .timeSearch span {
+	height: 25px; line-height: 25px; margin-right: 8px; float: left; display: block;
+}
+.priceDetail .priceInfo .timeSearch .textIn {
+	background: url("../images/time_icon.jpg") no-repeat 150px 3px rgb(255, 255, 255); padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; width: 160px; height: 23px; line-height: 23px; margin-right: 15px; float: left; display: block;
+}
+.priceDetail .priceInfo .timeSearch a {
+	background: rgb(255, 153, 0); padding: 0px 10px; border: currentColor; border-image: none; height: 25px; color: rgb(255, 255, 255); line-height: 25px; float: left; display: block;
+}
+.priceDetail .priceInfo .timeSearch a:hover {
+	background: rgb(208, 128, 8); text-decoration: none;
+}
+.priceDetail .priceInfo .priceTitle {
+	border-width: 1px medium; border-style: solid none; border-color: rgb(216, 216, 216) currentColor; border-image: none; height: 31px;
+}
+.priceDetail .priceInfo .priceTitle span {
+	height: 31px; line-height: 31px; padding-left: 15px; font-size: 14px; float: left; display: block;
+}
+.priceDetail .priceInfo .priceTitle span.width_1 {
+	width: 235px; padding-left: 10px;
+}
+.priceDetail .priceInfo .priceTitle span.width_2 {
+	width: 160px;
+}
+.priceDetail .priceInfo .priceTitle span.width_3 {
+	width: 45px;
+}
+.priceDetail .priceInfo .priceTitle span.width_4 {
+	width: 75px;
+}
+.priceDetail .priceInfo .priceTitle span.width_5 {
+	width: 75px;
+}
+.priceDetail .priceShowBox .show {
+	display: none;
+}
+.priceDetail .roomListBox .roomEach {
+	border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.priceDetail .roomListBox .roomEach .roomInfo {
+	padding: 10px 10px 0px; width: 225px; float: left;
+}
+.priceDetail .roomListBox .roomEach .imgShow {
+	width: 115px; margin-bottom: 10px; display: block; position: relative; z-index: 15;
+}
+.priceDetail .roomListBox .roomEach .imgShow a {
+	width: 115px; display: block;
+}
+.priceDetail .roomListBox .roomEach .imgShow span {
+	background: rgb(255, 255, 255); padding: 5px; border: 1px solid rgb(216, 216, 216); border-image: none; left: 120px; top: 0px; width: 310px; display: none; position: absolute;
+}
+.priceDetail .roomListBox .roomEach .imgShow:hover span {
+	display: block;
+}
+.priceDetail .roomListBox .roomEach .roomInfo .imgShow {
+	float: left;
+}
+.priceDetail .roomListBox .roomEach .roomInfo .info {
+	font-size: 14px; margin-left: 125px;
+}
+.priceDetail .roomListBox .roomEach .roomInfo .info img {
+	margin-top: -3px; margin-left: 5px; vertical-align: middle;
+}
+.priceDetail .roomListBox .roomEach .roomInfo .info a {
+	background: url("../images/sanj_bottom.png") no-repeat 60px 9px; color: rgb(37, 119, 227); display: block;
+}
+.priceDetail .roomListBox .roomEach .priceList {
+	width: 758px; border-left-color: rgb(216, 216, 216); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach {
+	padding: 10px 0px; font-size: 14px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 {
+	width: 160px; padding-left: 15px; float: left;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_3 {
+	width: 45px; padding-left: 15px; float: left;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_4 {
+	width: 75px; color: rgb(255, 0, 0); padding-left: 15px; float: left;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_5 {
+	width: 75px; color: rgb(255, 153, 0); padding-left: 15px; float: left;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_6 {
+	width: 75px; padding-left: 15px; float: left;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_6 strong {
+	color: rgb(255, 0, 0); font-weight: normal;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .dother {
+	width: 130px; padding-left: 15px; float: left;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .dother span {
+	padding: 2px 5px; border: 1px solid rgb(37, 119, 227); border-image: none; color: rgb(37, 119, 227); margin-right: 3px; margin-bottom: 3px; float: left; display: block;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .dother p {
+	color: rgb(255, 0, 0);
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .buyBtn {
+	background: rgb(255, 153, 0); padding: 3px 0px; width: 80px; text-align: center; color: rgb(255, 255, 255); margin-left: 15px; float: left; display: block;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .buyBtn:hover {
+	background: rgb(238, 144, 3); text-decoration: none;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .full {
+	background: rgb(216, 216, 216); padding: 3px 0px; width: 80px; text-align: center; color: rgb(255, 255, 255); margin-left: 15px; float: left; display: block;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .full:hover {
+	background: rgb(195, 193, 193); text-decoration: none;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 .detailI {
+	
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 .detailI {
+	height: 25px; line-height: 25px; display: block; position: relative; z-index: 6;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 .detailI a {
+	color: rgb(37, 119, 227);
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 span {
+	background: url("../images/sanj_top_border.png") no-repeat 0px 0px; left: 5px; top: 25px; width: 23px; height: 15px; display: none; position: absolute; z-index: 9;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 .dIn {
+	background: rgb(255, 255, 255); padding: 5px 10px; border: 1px solid rgb(37, 119, 227); border-image: none; left: -10px; top: 39px; width: 430px; line-height: 20px; display: none; position: absolute; z-index: 8;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 .detailI:hover {
+	z-index: 7;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 .detailI:hover span {
+	display: block;
+}
+.priceDetail .roomListBox .roomEach .priceList .priceEach .width_2 .detailI:hover .dIn {
+	display: block;
+}
+.priceDetail .roomListBox .roomEach .priceList .moreRoom {
+	height: 35px;
+}
+.priceDetail .roomListBox .roomEach .priceList .moreRoom a {
+	background: url("../images/sanj_bottom.png") no-repeat right 15px; height: 35px; color: rgb(37, 119, 227); line-height: 35px; padding-right: 15px; font-size: 14px; margin-right: 10px; float: right; display: block;
+}
+.priceDetail .roomListBox .roomEach .roomDetail {
+	background: rgb(239, 239, 239); padding: 10px; font-size: 14px; border-top-color: rgb(216, 216, 216); border-top-width: 1px; border-top-style: solid; display: none; position: relative;
+}
+.priceDetail .roomListBox .roomEach .roomDetail a.closeDetail {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: 10px; width: 31px; height: 30px; right: 10px; text-indent: -9999px; display: block; position: absolute;
+}
+#loginBox {
+	background: rgb(255, 255, 255); left: 50%; top: 100px; width: 500px; padding-bottom: 20px; margin-left: -250px; display: none; position: fixed; z-index: 99999;
+}
+#loginBox .loginChoose {
+	background: rgb(37, 119, 227); padding: 0px 10px; height: 40px;
+}
+#loginBox .loginChoose a {
+	padding: 0px 20px; height: 40px; color: rgb(255, 255, 255); line-height: 40px; font-size: 14px; float: left; display: block;
+}
+#loginBox .loginChoose a.current {
+	background: rgb(24, 94, 187);
+}
+#loginBox .loginChoose a.close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; padding: 0px; width: 31px; height: 30px; text-indent: -9999px; margin-top: 5px; float: right;
+}
+#loginBox h3 {
+	padding: 10px 0px 0px; text-align: center; color: rgb(255, 153, 0); font-size: 18px;
+}
+#loginBox .show {
+	display: none;
+}
+#loginBox dl {
+	margin: 10px auto 0px; width: 460px;
+}
+#loginBox dl dt {
+	width: 90px; height: 25px; text-align: right; line-height: 25px; font-size: 14px; float: left; display: block;
+}
+#loginBox dl dd {
+	width: 360px; margin-left: 10px; float: left; display: block;
+}
+#loginBox dl dd input {
+	padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; width: 228px; height: 23px; line-height: 23px; margin-right: 10px; vertical-align: top; display: inline-block;
+}
+#loginBox dl dd .textIn1214 {
+	margin-right: 5px;
+}
+#loginBox dl dd a {
+	color: rgb(255, 153, 0); font-size: 14px;
+}
+#loginBox p a {
+	color: rgb(255, 153, 0); font-size: 14px;
+}
+#loginBox dl dd a.qq {
+	background: url("../images/QQ.jpg") no-repeat; width: 74px; height: 28px; text-indent: -9999px; margin-right: 15px; float: left; display: block;
+}
+#loginBox dl dd a.alipay {
+	background: url("../images/Ö§¸¶±¦.jpg") no-repeat; width: 74px; height: 28px; text-indent: -9999px; margin-right: 15px; float: left; display: block;
+}
+#loginBox dl dd .loginBtn {
+	background: rgb(255, 153, 0); width: 240px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px; display: block;
+}
+#loginBox dl dd .loginBtn:hover {
+	background: rgb(236, 143, 3); text-decoration: none;
+}
+#loginBox p {
+	margin: 20px auto 0px; padding: 10px 0px; width: 460px; text-align: center; border-top-color: rgb(228, 228, 228); border-top-width: 1px; border-top-style: dashed;
+}
+#loginBox dl dd input.textIn {
+	width: 120px;
+}
+#loginBox dl dd .psw {
+	background: rgb(255, 153, 0); width: 100px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px; display: inline-block;
+}
+#loginBox dl dd .psw:hover {
+	background: rgb(236, 143, 3); text-decoration: none;
+}
+.home {
+	padding-top: 10px;
+}
+.crumbs {
+	padding-bottom: 5px; font-size: 14px;
+}
+.crumbs a {
+	margin: 0px 5px 0px 3px; color: rgb(37, 119, 227);
+}
+.crumbs span {
+	margin-left: 5px;
+}
+.home .homeNav {
+	width: 155px; border-top-color: rgb(37, 119, 227); border-right-color: rgb(236, 236, 236); border-top-width: 2px; border-right-width: 1px; border-top-style: solid; border-right-style: solid; float: left;
+}
+.home .homeNav h3 a {
+	height: 44px; line-height: 44px; padding-left: 15px; font-size: 16px; border-bottom-color: rgb(236, 236, 236); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.home .homeNav h3.havaSub a {
+	background: url("../images/h_san_bottom.png") no-repeat 120px 16px;
+}
+.home .homeNav .sub a {
+	height: 32px; line-height: 32px; padding-left: 20px; font-size: 14px; border-bottom-color: rgb(236, 236, 236); border-left-color: rgb(255, 255, 255); border-bottom-width: 1px; border-left-width: 3px; border-bottom-style: solid; border-left-style: solid; display: block;
+}
+.home .homeNav .sub a.current {
+	color: rgb(37, 119, 227); border-left-color: rgb(37, 119, 227); background-color: rgb(229, 239, 250);
+}
+.home .homeNav .sub a em {
+	color: rgb(37, 119, 227); font-style: normal;
+}
+.home .homeNav .sub a img {
+	margin: -3px 0px 0px 10px; vertical-align: middle;
+}
+.home .homeMain {
+	border-width: 2px 1px 1px; border-style: solid; border-color: rgb(37, 119, 227) rgb(189, 189, 189) rgb(189, 189, 189); border-image: none; width: 850px; float: right;
+}
+.home .homeMain .homeIndex {
+	padding: 15px 20px;
+}
+.home .homeMain .homeIndex .welcome {
+	color: rgb(37, 119, 227); padding-bottom: 5px; font-size: 14px; font-weight: bold;
+}
+.home .homeMain .homeIndex p.info {
+	height: 26px; line-height: 26px; font-size: 14px;
+}
+.home .homeMain .homeIndex p.info span {
+	margin-left: 40px;
+}
+.home .homeMain .homeIndex p.info a {
+	color: rgb(37, 119, 227); margin-left: 20px;
+}
+.home .homeMain .homeIndex p.info a.change {
+	background: rgb(255, 153, 0); width: 85px; height: 26px; text-align: center; color: rgb(255, 255, 255); display: inline-block;
+}
+.home .homeMain .homeIndex p.info a.change:hover {
+	background: rgb(229, 137, 0); text-decoration: none;
+}
+.home .homeMain .homeIndex dl {
+	padding: 10px 0px; height: 27px; line-height: 27px; font-size: 14px; border-bottom-color: rgb(189, 189, 189); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.home .homeMain .homeIndex dl dt {
+	background: rgb(37, 119, 227); width: 65px; height: 27px; text-align: center; color: rgb(255, 255, 255); line-height: 27px; float: left; display: block;
+}
+.home .homeMain .homeIndex dl dd {
+	margin-left: 108px;
+}
+.home .homeMain .homeIndex dl dd span {
+	margin-left: 20px;
+}
+.home .homeMain .homeIndex dl dd strong {
+	color: rgb(255, 0, 0); font-weight: normal;
+}
+.home .homeMain .homeIndex dl dd .order {
+	margin-right: 20px;
+}
+.home .homeMain .homeIndex dl dd .ot {
+	color: rgb(37, 119, 227); margin-left: 30px; float: right;
+}
+.home .homeMain .homeIndex .hotgift {
+	margin-top: 30px;
+}
+.home .homeMain .homeIndex .hotgift h3 {
+	background: rgb(175, 210, 255); padding: 0px 10px; height: 38px; color: rgb(255, 255, 255); line-height: 38px; font-size: 14px;
+}
+.home .homeMain .homeIndex .hotgift h3 a {
+	color: rgb(255, 255, 255); float: right;
+}
+.home .homeMain .homeIndex .hotgift .giftBox {
+	margin: 15px auto; width: 750px; overflow: hidden;
+}
+.home .homeMain .homeIndex .hotgift .giftBox .gift {
+	width: 800px;
+}
+.home .homeMain .homeIndex .hotgift .giftBox .gift .each {
+	width: 155px; margin-right: 43px; float: left;
+}
+.home .homeMain .homeIndex .hotgift .giftBox .gift .each .aImg {
+	border: 1px solid rgb(234, 234, 234); border-image: none; width: 153px; height: 153px; margin-bottom: 5px; display: block;
+}
+.home .homeMain .homeIndex .hotgift .giftBox .gift .each p {
+	height: 20px; line-height: 20px; overflow: hidden;
+}
+.home .homeMain .homeIndex .hotgift .giftBox .gift .each p.other {
+	color: rgb(255, 153, 0);
+}
+.home .homeMain .homeIndex .hotgift .giftBox .gift .each .buyBtn {
+	background: rgb(255, 153, 0); height: 28px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; font-size: 14px; margin-top: 7px; display: block;
+}
+.home .homeMain .homeIndex .hotgift .giftBox .gift .each .buyBtn:hover {
+	background: rgb(232, 139, 0); text-decoration: none;
+}
+.home .homeMain .homeIndex .hotgift #slider {
+	margin: 15px auto 0px;
+}
+.pay .payDetail {
+	padding: 20px 40px; border-top-color: rgb(37, 119, 227); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.pay .payDetail .erW {
+	background: rgb(255, 255, 255); padding: 5px; border: 1px solid rgb(228, 228, 228); border-image: none; top: 10px; width: 170px; right: 0px; position: absolute;
+}
+.pay .payDetail .erW img {
+	margin-bottom: 5px;
+}
+.pay .payDetail h2 {
+	color: rgb(37, 119, 227); font-size: 16px;
+}
+.pay .payDetail dl {
+	padding: 15px 0px; line-height: 25px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.pay .payDetail dl dt {
+	width: 100px; font-size: 14px; float: left; display: block;
+}
+.pay .payDetail dl dd {
+	font-size: 14px; margin-left: 100px;
+}
+.pay .payDetail dl dd span {
+	margin-left: 40px;
+}
+.pay .payDetail dl dd strong {
+	color: rgb(255, 0, 0); font-weight: normal;
+}
+.pay .payDetail dl dd em {
+	color: rgb(255, 153, 0); font-weight: normal;
+}
+.pay .payDetail dl dd .totalDetail {
+	width: 50px; height: 25px; margin-left: 50px; float: left; position: relative;
+}
+.pay .payDetail dl dd .totalDetail a {
+	color: rgb(255, 153, 0);
+}
+.pay .payDetail dl dd .inlineBox p {
+	float: left;
+}
+.pay .payDetail dl dd .totalDetail em {
+	background: url("../images/sanj_top_border.png") no-repeat 0px 0px; left: 5px; top: 25px; width: 23px; height: 15px; display: none; position: absolute; z-index: 7;
+}
+.pay .payDetail dl dd .totalDetail .detailShow {
+	background: rgb(255, 255, 255); padding: 5px 10px; border: 1px solid rgb(37, 119, 227); border-image: none; left: -10px; top: 39px; width: 340px; font-size: 14px; display: none; position: absolute; z-index: 6;
+}
+.pay .payDetail dl dd .totalDetail .detailShow h4 {
+	padding-bottom: 5px;
+}
+.pay .payDetail dl dd .totalDetail .detailShow thead td {
+	background: rgb(138, 188, 255); color: rgb(255, 255, 255);
+}
+.pay .payDetail dl dd .totalDetail .detailShow td {
+	padding: 3px 10px;
+}
+.pay .payDetail dl dd .totalDetail .detailShow .total td {
+	color: rgb(255, 0, 0); border-top-color: rgb(239, 239, 239); border-top-width: 1px; border-top-style: solid;
+}
+.pay .payDetail dl dd .totalDetail:hover em {
+	display: block;
+}
+.pay .payDetail dl dd .totalDetail:hover .detailShow {
+	display: block;
+}
+.pay .payDetail .allTotal {
+	padding: 15px 0px; color: rgb(255, 0, 0); font-size: 16px;
+}
+.pay .payDetail .payWay {
+	padding-top: 20px;
+}
+.pay .payDetail .payWay h3 {
+	color: rgb(37, 119, 227); font-size: 16px;
+}
+.pay .payDetail .payWay .each {
+	background: rgb(244, 248, 254); margin: 10px 0px; padding: 0px 10px; border: 1px solid rgb(244, 248, 254); border-image: none; height: 31px; line-height: 31px;
+}
+.pay .payDetail .payWay .each:hover {
+	border: 1px solid rgb(37, 119, 227); border-image: none;
+}
+.pay .payDetail .payWay .each span {
+	margin-left: 50px;
+}
+.pay .payDetail .payWay .each em {
+	color: rgb(255, 153, 0); font-style: normal;
+}
+.pay .payDetail .payWay .each input {
+	vertical-align: middle; cursor: pointer;
+}
+.pay .payDetail .payWay .each label {
+	vertical-align: middle; cursor: pointer;
+}
+.pay .payDetail .payWay hr {
+	background: rgb(214, 214, 214); color: rgb(214, 214, 214);
+}
+.pay .payDetail .payWay .wayList {
+	padding: 20px 0px; height: 60px;
+}
+.pay .payDetail .payWay .wayList span {
+	height: 60px; margin-left: 50px; float: left; display: block;
+}
+.pay .payDetail .payWay .wayList span input {
+	float: left; cursor: pointer;
+}
+.pay .payDetail .payWay .wayList span label {
+	float: left; cursor: pointer;
+}
+.pay .payDetail .payWay .wayList span input {
+	margin: 24px 10px 0px 0px;
+}
+.pay .payDetail .payWay .wayList span label img {
+	border: 1px solid rgb(219, 219, 219); border-image: none;
+}
+.pay .payDetail .payWay .wayList span.current label img {
+	border: 1px solid rgb(37, 119, 227); border-image: none;
+}
+.pay .payDetail .payWay .payBox {
+	padding: 20px 0px; height: 30px;
+}
+.pay .payDetail .payWay .payBox a {
+	background: rgb(255, 153, 0); width: 180px; height: 42px; text-align: center; color: rgb(255, 255, 255); line-height: 42px; font-size: 16px; float: right; display: block;
+}
+.pay .payDetail .payWay .payBox a:hover {
+	background: rgb(228, 138, 2); text-decoration: none;
+}
+.pay .youLike {
+	margin-top: 30px;
+}
+.pay .youLike h3 {
+	height: 33px; margin-bottom: 15px; border-bottom-color: rgb(37, 119, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pay .youLike h3 span {
+	background: rgb(37, 119, 227); padding: 0px 15px; height: 33px; color: rgb(255, 255, 255); line-height: 33px; font-size: 14px; float: left; display: block;
+}
+.pay .youLike .likeBox {
+	width: 1024px; overflow: hidden;
+}
+.pay .youLike .likeBox .like {
+	width: 1100px;
+}
+.pay .youLike .likeBox .like .each {
+	border: 1px solid rgb(238, 238, 238); border-image: none; width: 245px; padding-bottom: 5px; margin-right: 12px; float: left;
+}
+.pay .youLike .likeBox .like .each h4 {
+	padding: 5px; font-size: 14px;
+}
+.pay .youLike .likeBox .like .each .tips {
+	padding: 0px 5px; color: rgb(170, 170, 170); font-size: 12px;
+}
+.pay .youLike .likeBox .like .each .mark {
+	padding: 5px; height: 20px;
+}
+.pay .youLike .likeBox .like .each .mark span {
+	padding: 0px 10px; border: 1px solid rgb(37, 119, 227); border-image: none; height: 18px; color: rgb(37, 119, 227); line-height: 18px; font-size: 12px; margin-right: 5px; float: left; display: block;
+}
+.pay .youLike .likeBox .like .each .price {
+	padding: 0px 5px; color: rgb(255, 154, 21); font-size: 20px;
+}
+.pay .youLike .likeBox .like .each .price span {
+	color: rgb(170, 170, 170); font-size: 12px; text-decoration: line-through; margin-left: 10px;
+}
+.pay .youLike .likeBox .like .each .price em {
+	color: rgb(170, 170, 170); font-size: 12px; font-style: normal; margin-top: 8px; float: right;
+}
+.sureOrder .sureDetail {
+	padding: 10px 0px; border-top-color: rgb(37, 119, 227); border-top-width: 1px; border-top-style: solid;
+}
+.sureOrder .sureDetail .sureInfo {
+	width: 640px; margin-left: 15px; float: left;
+}
+.sureOrder .sureDetail .chooseInputBox {
+	height: 25px;
+}
+.sureOrder .sureDetail .chooseInputBox span {
+	height: 25px; line-height: 25px; margin-right: 8px; float: left; display: block;
+}
+.sureOrder .sureDetail .chooseInputBox .textIn {
+	padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; height: 23px; line-height: 23px; margin-right: 15px; float: left; display: block;
+}
+.sureOrder .sureDetail .chooseInputBox .textIn_2 {
+	background: url("../images/time_icon.jpg") no-repeat 150px 3px rgb(255, 255, 255); width: 160px;
+}
+.sureOrder .sureDetail .chooseInputBox .searchBtn {
+	background: rgb(255, 153, 0); padding: 0px 10px; border: currentColor; border-image: none; height: 25px; color: rgb(255, 255, 255); line-height: 25px; float: left; display: block;
+}
+.sureOrder .sureDetail .chooseInputBox .searchBtn:hover {
+	background: rgb(208, 128, 8); text-decoration: none;
+}
+.dayTable h3 {
+	padding: 8px 0px; color: rgb(37, 119, 227); font-size: 14px;
+}
+.dayTable .dayHeader {
+	height: 28px; border-left-color: rgb(37, 119, 227); border-left-width: 1px; border-left-style: solid;
+}
+.dayTable .dayHeader span {
+	background: rgb(62, 128, 215); width: 91px; height: 28px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 14px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: solid; float: left; display: block;
+}
+.dayTable .allDay {
+	border-left-color: rgb(216, 216, 216); border-left-width: 1px; border-left-style: solid;
+}
+.dayTable .allDay .each {
+	width: 90px; height: 90px; font-size: 14px; border-right-color: rgb(216, 216, 216); border-bottom-color: rgb(216, 216, 216); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.dayTable .allDay .each .dayNum {
+	height: 34px; text-align: center; color: rgb(62, 128, 215); line-height: 34px; display: block;
+}
+.dayTable .allDay .each .price {
+	text-align: center; color: rgb(255, 153, 0); display: block;
+}
+.dayTable .allDay .each .pro {
+	background: rgb(255, 153, 0); margin: 5px 0px 0px 15px; width: 53px; height: 20px; color: rgb(255, 255, 255); line-height: 19px; padding-left: 13px; font-size: 12px; display: block; position: relative;
+}
+.dayTable .allDay .each .pro em {
+	background: rgb(255, 255, 255); border-radius: 20px; border: 1px solid rgb(216, 216, 216); border-image: none; left: -10px; top: 0px; width: 16px; height: 18px; text-align: center; color: rgb(255, 153, 0); line-height: 15px; padding-left: 2px; display: block; position: absolute;
+}
+.dayTable .allDay .each .pro i {
+	background: rgb(255, 0, 0); border-radius: 15px; top: -5px; width: 15px; height: 15px; text-align: center; right: -5px; color: rgb(255, 255, 255); line-height: 15px; font-size: 12px; font-style: normal; display: block; position: absolute;
+}
+.dayTable .allDay .each .pro:hover {
+	text-decoration: none;
+}
+.dayTable .allDay .each .full {
+	text-align: center; color: rgb(146, 146, 146); font-size: 14px; display: block;
+}
+.dayTable .allDay .current {
+	background: rgb(62, 128, 215);
+}
+.dayTable .allDay .current .dayNum {
+	color: rgb(255, 255, 255);
+}
+.dayTable .allDay .current .price {
+	color: rgb(255, 255, 255);
+}
+.dayTable .allDay .grayBg .price {
+	color: rgb(146, 146, 146);
+}
+.dayTable .allDay .grayBg .pro {
+	background: rgb(146, 146, 146);
+}
+.sureOrder .sureDetail .roomAbout {
+	padding: 5px 25px 0px 0px; font-size: 14px;
+}
+.sureOrder .sureDetail .roomAbout dl {
+	line-height: 25px; margin-top: 10px;
+}
+.sureOrder .sureDetail .roomAbout dl dt {
+	width: 70px; float: left; display: block;
+}
+.sureOrder .sureDetail .roomAbout dl dd {
+	margin-left: 70px;
+}
+.sureOrder .sureDetail .roomAbout dl dd select {
+	width: 70px;
+}
+.sureOrder .sureDetail .roomAbout dl dd strong {
+	color: rgb(255, 0, 0); font-style: normal;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail {
+	width: 50px; height: 25px; margin-left: 50px; float: left; position: relative;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail a {
+	color: rgb(255, 153, 0);
+}
+.sureOrder .sureDetail .roomAbout dl dd .inlineBox p {
+	float: left;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail em {
+	background: url("../images/sanj_top_border.png") no-repeat 0px 0px; left: 5px; top: 25px; width: 23px; height: 15px; display: none; position: absolute; z-index: 7;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail .detailShow {
+	background: rgb(255, 255, 255); padding: 5px 10px; border: 1px solid rgb(37, 119, 227); border-image: none; left: -10px; top: 39px; width: 340px; font-size: 14px; display: none; position: absolute; z-index: 6;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail .detailShow h4 {
+	padding-bottom: 5px;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail .detailShow thead td {
+	background: rgb(138, 188, 255); color: rgb(255, 255, 255);
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail .detailShow td {
+	padding: 3px 10px;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail .detailShow .total td {
+	color: rgb(255, 0, 0); border-top-color: rgb(239, 239, 239); border-top-width: 1px; border-top-style: solid;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail:hover em {
+	display: block;
+}
+.sureOrder .sureDetail .roomAbout dl dd .totalDetail:hover .detailShow {
+	display: block;
+}
+.sureOrder .sureDetail .roomAbout .total {
+	padding: 15px 0px; color: rgb(255, 0, 0); font-size: 16px; border-top-color: rgb(216, 216, 216); border-top-width: 1px; border-top-style: dashed;
+}
+.sureOrder .sureDetail .roomAbout dl dd .news {
+	background: url("../images/news_tips.png") no-repeat left; padding-left: 17px;
+}
+.sureOrder .sureDetail .roomAbout dl dd .news a {
+	color: rgb(255, 153, 0); margin-right: 5px;
+}
+.sureOrder .sureDetail .roomAbout .bestList {
+	padding: 5px 0px;
+}
+.sureOrder .sureDetail .roomAbout .bestList p {
+	padding-bottom: 5px;
+}
+.sureOrder .sureDetail .roomAbout .bestList p span {
+	margin-right: 30px;
+}
+.sureOrder .sureDetail .roomAbout .bestList p strong {
+	color: rgb(255, 153, 0); font-weight: normal;
+}
+.sureOrder .sureDetail .roomAbout .bestList p a {
+	color: rgb(255, 153, 0); margin-right: 30px;
+}
+.sureOrder .sureDetail .userInfo {
+	padding-top: 20px;
+}
+.sureOrder .sureDetail .userInfo dl {
+	font-size: 14px; margin-top: 15px;
+}
+.sureOrder .sureDetail .userInfo dl dt {
+	width: 80px; text-align: right; font-size: 14px; float: left; display: block;
+}
+.sureOrder .sureDetail .userInfo dl dd {
+	margin-left: 85px;
+}
+.sureOrder .sureDetail .userInfo dl dd .textIn {
+	padding: 0px 5px; border: 1px solid rgb(216, 216, 216); border-image: none; width: 280px; height: 25px; line-height: 25px;
+}
+.sureOrder .sureDetail .userInfo dl dd .user {
+	padding-bottom: 5px;
+}
+.sureOrder .sureDetail .userInfo dl dd .user .textIn {
+	float: left;
+}
+.sureOrder .sureDetail .userInfo dl dd .user .chooseUser {
+	width: 100px; height: 27px; margin-left: 20px; float: left; position: relative;
+}
+.sureOrder .sureDetail .userInfo dl dd .user .chooseUser a {
+	background: rgb(255, 153, 0); width: 100px; height: 27px; text-align: center; color: rgb(255, 255, 255); line-height: 27px; font-size: 14px; display: block;
+}
+.sureOrder .sureDetail .userInfo dl dd .user .chooseUser a:hover {
+	background: rgb(231, 139, 0); text-decoration: none;
+}
+.sureOrder .sureDetail .userInfo dl dd .user .chooseUser em {
+	background: url("../images/sanj_left_border.png") no-repeat 0px 0px; top: 5px; width: 12px; height: 18px; right: -20px; display: none; position: absolute; z-index: 7;
+}
+.sureOrder .sureDetail .userInfo dl dd .user .chooseUser .userList {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(37, 119, 227); border-image: none; left: 119px; top: -12px; width: 160px; display: none; position: absolute; z-index: 6;
+}
+.sureOrder .sureDetail .userInfo dl dd .user .chooseUser .userList span {
+	padding-bottom: 4px; display: block;
+}
+.sureOrder .sureDetail .userInfo dl dd i {
+	color: rgb(219, 219, 219); font-style: normal;
+}
+.sureOrder .sureDetail .userInfo dl dd select {
+	min-width: 200px;
+}
+.sureOrder .sureDetail .userInfo dl dd .login {
+	color: rgb(255, 153, 0); margin-right: 5px;
+}
+.sureOrder .sureDetail .userInfo .borLine {
+	padding-bottom: 15px; margin-top: 15px; border-top-color: rgb(216, 216, 216); border-bottom-color: rgb(216, 216, 216); border-top-width: 1px; border-bottom-width: 1px; border-top-style: dashed; border-bottom-style: dashed;
+}
+.sureOrder .sureDetail .userInfo .userPay {
+	padding-top: 15px;
+}
+.sureOrder .sureDetail .userInfo .userPay h3 {
+	font-size: 16px;
+}
+.sureOrder .sureDetail .userInfo .userPay .each {
+	background: rgb(244, 248, 254); margin: 10px 0px; padding: 0px 10px 3px; border: 1px solid rgb(244, 248, 254); border-image: none; height: 31px; line-height: 31px;
+}
+.sureOrder .sureDetail .userInfo .userPay .each span {
+	margin-left: 50px;
+}
+.sureOrder .sureDetail .userInfo .userPay .each input {
+	vertical-align: middle; cursor: pointer;
+}
+.sureOrder .sureDetail .userInfo .userPay .each label {
+	vertical-align: middle; cursor: pointer;
+}
+.sureOrder .sureDetail .userInfo .userPay .tips {
+	color: rgb(255, 153, 0); padding-left: 25px; font-size: 14px;
+}
+.sureOrder .sureDetail .userInfo .userPay .all {
+	padding: 15px 15px 20px; text-align: right; color: rgb(255, 0, 0); font-size: 16px;
+}
+.sureOrder .sureDetail .userInfo .sure a {
+	background: rgb(255, 153, 0); width: 150px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; float: right; display: block;
+}
+.sureOrder .sureDetail .userInfo .sure {
+	padding: 15px; border-top-color: rgb(216, 216, 216); border-top-width: 1px; border-top-style: dashed;
+}
+.sureOrder .sureDetail .userInfo .sure a:hover {
+	background: rgb(228, 137, 0); text-decoration: none;
+}
+.sureOrder .sureDetail .userInfo .sure strong {
+	color: rgb(255, 153, 0);
+}
+.sureOrder .sureRight {
+	width: 330px; float: right;
+}
+.sureOrder .sureRight dl {
+	padding-bottom: 10px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.sureOrder .sureRight dl dt {
+	width: 130px; float: left; display: block;
+}
+.sureOrder .sureRight dl dd {
+	width: 190px; float: right; display: block;
+}
+.sureOrder .sureRight h3 {
+	color: rgb(37, 119, 227); padding-bottom: 5px; font-size: 14px;
+}
+.sureOrder .sureRight p {
+	font-size: 14px;
+}
+.sureOrder .sureRight .room {
+	padding: 10px 0px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.sureOrder .sureRight .severice {
+	padding: 10px 0px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.sureOrder .sureRight .severice p {
+	padding: 0px 0px 5px 35px;
+}
+.sureOrder .sureRight .severice p.icon_1 {
+	background: url("../images/tel_icon.png") no-repeat 5px 2px;
+}
+.sureOrder .sureRight .severice p.icon_2 {
+	background: url("../images/service_icon.png") no-repeat 5px 2px;
+}
+.sureOrder .sureRight .other h3 {
+	color: rgb(255, 153, 0); padding-top: 10px;
+}
+#allProList {
+	background: rgb(255, 255, 255); margin: -210px 0px 0px -380px; padding: 10px; left: 50%; top: 50%; width: 740px; height: 450px; display: none; position: fixed; z-index: 99999;
+}
+#allProList .list {
+	width: 740px; height: 400px; overflow: hidden; -ms-overflow-y: auto;
+}
+#allProList .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: -55px; width: 31px; height: 30px; right: -45px; text-indent: -9999px; display: block; position: absolute;
+}
+#proYDetail .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: -55px; width: 31px; height: 30px; right: -45px; text-indent: -9999px; display: block; position: absolute;
+}
+#allProList .list .each {
+	padding-bottom: 15px;
+}
+#allProList .list .each dl {
+	width: 360px; float: left;
+}
+#allProList .list .each dl dt {
+	width: 130px; float: left; display: block;
+}
+#allProList .list .each dl dd {
+	width: 220px; float: right; display: block;
+}
+#allProList .list .each dl dd .more {
+	height: 60px; font-size: 14px; position: relative; z-index: 5;
+}
+#allProList .list .each dl dd .more i {
+	background: url("../images/sanj_top_border.png") no-repeat 0px 0px; left: 45px; top: 25px; width: 23px; height: 15px; display: none; position: absolute; z-index: 8;
+}
+#allProList .list .each dl dd .more .show {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(37, 119, 227); border-image: none; top: 39px; width: 270px; display: none; position: absolute; z-index: 7;
+}
+#allProList .list .each dl dd .more:hover {
+	z-index: 6;
+}
+#allProList .list .each dl dd .more:hover i {
+	display: block;
+}
+#allProList .list .each dl dd .more:hover .show {
+	display: block;
+}
+#allProList .list .each dl dd .price {
+	padding-top: 5px; font-size: 14px;
+}
+#allProList .list .each dl dd .price strong {
+	color: rgb(255, 153, 0); font-weight: normal;
+}
+#allProList .list .each dl dd .price span {
+	text-decoration: line-through; margin-left: 30px;
+}
+#allProList .list .each .add {
+	background: rgb(255, 153, 0); margin: 20px 30px 0px 0px; width: 80px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 14px; float: right; display: block;
+}
+#allProList .list .each .add:hover {
+	background: rgb(233, 140, 0); text-decoration: none;
+}
+#allProList .list .each .chooseNum {
+	margin: 20px 0px 0px 30px; width: 100px; height: 30px; float: left;
+}
+#allProList .list .each .chooseNum a {
+	border: 1px solid rgb(216, 216, 216); border-image: none; width: 28px; height: 28px; text-align: center; color: rgb(37, 119, 227); line-height: 25px; font-size: 18px; float: left; display: block;
+}
+#allProList .list .each .chooseNum a:hover {
+	border: 1px solid rgb(37, 119, 227); border-image: none; text-decoration: none;
+}
+#allProList .list .each .chooseNum input {
+	border-width: 1px medium; border-style: solid none; border-color: rgb(216, 216, 216) currentColor; padding: 0px 4px; border-image: none; width: 32px; height: 28px; text-align: center; line-height: 28px; float: left; display: block;
+}
+#proYDetail {
+	background: rgb(255, 255, 255); margin: -230px 0px 0px -470px; left: 50%; top: 50%; width: 940px; height: 460px; display: none; position: fixed; z-index: 99999;
+}
+#proYDetail .close {
+	top: 0px; right: -35px;
+}
+#proYDetail .left {
+	background: rgb(233, 236, 244); width: 650px; height: 430px; padding-top: 30px; float: left;
+}
+#proYDetail .left img {
+	margin: 0px auto; display: block;
+}
+#proYDetail .left p {
+	text-align: center; padding-top: 20px; font-size: 14px;
+}
+#proYDetail .right {
+	width: 265px; height: 460px; overflow: hidden; float: right; -ms-overflow-y: auto;
+}
+#proYDetail .right h3 {
+	padding: 10px 0px; color: rgb(37, 119, 227); line-height: 22px; font-size: 18px;
+}
+#proYDetail .right p {
+	padding-bottom: 10px; font-size: 14px;
+}
+.homeMain .oUsers {
+	margin: 20px; padding-bottom: 30px;
+}
+.homeMain .oUsers h3 {
+	background: rgb(237, 242, 249); height: 28px; line-height: 28px; padding-left: 20px; font-size: 14px;
+}
+.homeMain .oUsers h4 {
+	padding: 15px 20px; font-size: 14px;
+}
+.homeMain .oUsers .userSearch {
+	height: 28px; line-height: 28px; padding-left: 20px; font-size: 14px;
+}
+.homeMain .oUsers .userSearch a {
+	background: rgb(255, 153, 0); width: 100px; height: 28px; text-align: center; color: rgb(255, 255, 255); margin-right: 20px; float: right; display: block;
+}
+.homeMain .oUsers .userSearch a:hover {
+	background: rgb(226, 136, 2); text-decoration: none;
+}
+.homeMain .oUsers .userSearch input {
+	padding: 0px 10px; border: 1px solid rgb(109, 109, 109); border-image: none; width: 180px; height: 26px; line-height: 26px; font-size: 12px; margin-left: 15px;
+}
+.homeMain .oUsers table {
+	font-size: 14px; margin-top: 20px;
+}
+.homeMain .oUsers table td {
+	padding: 15px 10px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.homeMain .oUsers table thead td {
+	background: rgb(237, 242, 249); padding: 10px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.homeMain .oUsers table td a {
+	color: rgb(255, 153, 0); margin-right: 10px;
+}
+.showLoving .homeNav {
+	width: 206px; border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.showLoving .homeMain {
+	width: 795px;
+}
+.showLoving .homeNav .sub a {
+	border-right-color: rgb(236, 236, 236); border-right-width: 1px; border-right-style: solid;
+}
+.showLoving .homeNav h3 a {
+	border-right-color: rgb(236, 236, 236); border-right-width: 1px; border-right-style: solid;
+}
+.showLoving .homeNav .sub a {
+	height: 40px; line-height: 40px;
+}
+.showLoving .homeNav .sub a.current {
+	background: rgb(229, 239, 250); border-left-color: rgb(37, 119, 227); border-left-width: 2px; border-left-style: solid;
+}
+.showLoving .homeNav h3 a.current {
+	background: rgb(229, 239, 250); border-left-color: rgb(37, 119, 227); border-left-width: 2px; border-left-style: solid;
+}
+.showLoving .homeNav .showImg img {
+	margin-top: 15px;
+}
+.showLoving .showLoveMain {
+	padding: 10px 10px 40px;
+}
+.showLoving .showLoveMain h3 {
+	font-size: 14px;
+}
+.showLoving .showLoveMain h3 select {
+	float: right;
+}
+.showLoving .showLoveMain dl {
+	padding: 15px 0px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.showLoving .showLoveMain dl dt {
+	width: 245px; float: left; display: block;
+}
+.showLoving .showLoveMain dl dd {
+	width: 510px; font-size: 14px; float: right; display: block;
+}
+.showLoving .showLoveMain dl dd h4 {
+	color: rgb(37, 119, 227); line-height: 25px;
+}
+.showLoving .showLoveMain dl dd p {
+	padding: 20px 0px;
+}
+.showLoving .showLoveMain dl dd a {
+	color: rgb(255, 153, 0);
+}
+.privilege {
+	margin: 0px auto; width: 1024px;
+}
+.privilege .crumbs {
+	padding: 10px 0px;
+}
+.privilege .chooseInputBox {
+	background: rgba(0, 0, 0, 0.5); padding: 8px; left: 0px; top: 0px; height: 25px; right: 0px; position: absolute; z-index: 9999;
+}
+.privilege .chooseInputBox span {
+	height: 25px; color: rgb(255, 255, 255); line-height: 25px; margin-right: 8px; float: left; display: block;
+}
+.privilege .chooseInputBox .textIn {
+	padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; height: 23px; line-height: 23px; margin-right: 15px; float: left; display: block;
+}
+.privilege .chooseInputBox .textIn_1 {
+	width: 80px;
+}
+.privilege .chooseInputBox .textIn_2 {
+	background: url("../images/time_icon.jpg") no-repeat 150px 3px rgb(255, 255, 255); width: 160px;
+}
+.privilege .chooseInputBox .textIn_3 {
+	width: 200px;
+}
+.privilege .chooseInputBox .searchBtn {
+	background: rgb(255, 153, 0); padding: 0px 10px; border: currentColor; border-image: none; height: 25px; color: rgb(255, 255, 255); line-height: 25px; float: left; display: block;
+}
+.privilege .chooseInputBox .searchBtn:hover {
+	background: rgb(208, 128, 8); text-decoration: none;
+}
+.chooseInputBox .placeBox {
+	width: 92px; height: 23px; margin-right: 15px; float: left; position: relative; z-index: 100;
+}
+.chooseInputBox .placeBox .destination_1 {
+	background: rgb(255, 255, 255); padding: 5px 10px 10px; border: 1px solid rgb(207, 207, 207); border-image: none; left: 0px; top: 24px; width: 400px; display: none; position: absolute; z-index: 999;
+}
+.chooseInputBox .placeBox .destination_2 {
+	background: rgb(255, 255, 255); padding: 5px 10px 10px; border: 1px solid rgb(207, 207, 207); border-image: none; left: 0px; top: 24px; width: 400px; display: none; position: absolute; z-index: 999;
+}
+.chooseInputBox .placeBox .destination_1 h4 {
+	color: rgb(146, 146, 146); padding-bottom: 5px; font-size: 14px;
+}
+.chooseInputBox .placeBox .posBox a.close {
+	margin: 0px; width: 20px; height: 20px; text-align: center; line-height: 20px; font-size: 20px; float: right; display: block;
+}
+.chooseInputBox .placeBox .posBox a.close:hover {
+	text-decoration: none;
+}
+.chooseInputBox .placeBox .destination_1 h3 {
+	color: rgb(0, 102, 205); font-size: 14px;
+}
+.chooseInputBox .placeBox .destination_1 a {
+	line-height: 20px; margin-right: 20px; white-space: nowrap;
+}
+.chooseInputBox .placeBox .destination_1 .choose {
+	margin: 10px 0px 5px; height: 25px; line-height: 25px;
+}
+.chooseInputBox .placeBox .destination_1 .choose a {
+	margin: 0px; padding: 0px 10px; height: 23px; border-bottom-color: rgb(146, 146, 146); border-bottom-width: 2px; border-bottom-style: solid; float: left; display: block;
+}
+.chooseInputBox .placeBox .destination_1 .choose a.current {
+	color: rgb(37, 119, 227); border-bottom-color: rgb(37, 119, 227); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.chooseInputBox .placeBox .destination_2 {
+	padding: 5px 0px 10px;
+}
+.chooseInputBox .placeBox .destination_2 h4 {
+	margin: 0px 10px 10px; padding: 3px 0px; font-size: 14px; border-bottom-color: rgb(146, 146, 146); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.chooseInputBox .placeBox .destination_2 li a {
+	padding: 0px 10px; height: 25px; line-height: 25px; font-size: 14px; display: block;
+}
+.chooseInputBox .placeBox .destination_2 li a:hover {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); text-decoration: none;
+}
+.chooseInputBox .placeBox .destination_2 .page {
+	padding: 10px 0px 0px; text-align: center;
+}
+.chooseInputBox .placeBox .destination_2 .page a {
+	font-size: 14px; margin-right: 5px;
+}
+.privilege .allBox .allChoose {
+	padding: 15px; height: 35px;
+}
+.privilege .allBox .allChoose a {
+	padding: 0px 20px; border-radius: 20px; border: 2px solid rgb(37, 119, 227); border-image: none; height: 31px; color: rgb(37, 119, 227); line-height: 31px; font-size: 14px; margin-right: 20px; float: left; display: block;
+}
+.privilege .allBox .allChoose a.current {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255);
+}
+.privilege .allBox .all {
+	width: 1024px; overflow: hidden; display: none;
+}
+.privilege .allBox .all .list {
+	width: 1100px;
+}
+.privilege .allBox .all .list .each {
+	width: 320px; height: 240px; margin-right: 32px; margin-bottom: 10px; float: left;
+}
+.privilege .allBox .all .list .each .imgShow {
+	width: 320px; height: 210px; position: relative;
+}
+.privilege .allBox .all .list .each .imgShow .detailInfo {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; width: 320px; height: 210px; display: none; position: absolute;
+}
+.privilege .allBox .all .list .each .imgShow .detailInfo p {
+	margin: 20px auto 0px; width: 250px; height: 110px; color: rgb(255, 255, 255); overflow: hidden; font-size: 14px;
+}
+.privilege .allBox .all .list .each .imgShow .btnBox {
+	text-align: center; padding-top: 5px;
+}
+.privilege .allBox .all .list .each .imgShow .btnBox a {
+	background: rgb(255, 153, 0); width: 90px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; margin-right: 15px; display: inline-block;
+}
+.privilege .allBox .all .list .each .imgShow .btnBox a:hover {
+	background: rgb(218, 131, 2); text-decoration: none;
+}
+.privilege .allBox .all .list .each .name {
+	height: 30px; line-height: 30px; overflow: hidden; padding-left: 5px; font-size: 14px;
+}
+.privilege .allBox .all .list .each:hover .imgShow .detailInfo {
+	display: block;
+}
+.homeMain .myOrder {
+	margin: 20px;
+}
+.homeMain .myOrder h3 {
+	background: rgb(229, 239, 250); height: 27px; line-height: 27px; padding-left: 15px; font-size: 14px;
+}
+.homeMain .myOrder .searchBox {
+	padding: 13px 0px 0px; height: 22px; line-height: 22px; font-size: 14px;
+}
+.homeMain .myOrder .searchBox span {
+	padding-right: 5px; padding-left: 15px;
+}
+.homeMain .myOrder .searchBox .textIn {
+	padding: 0px 5px; border: 1px solid rgb(100, 100, 100); border-image: none; width: 90px; height: 20px; line-height: 20px; font-size: 12px; margin-right: 3px;
+}
+.homeMain .myOrder .searchBox a {
+	background: rgb(255, 153, 0); width: 100px; height: 22px; text-align: center; color: rgb(255, 255, 255); line-height: 21px; font-size: 12px; margin-right: 20px; float: right; display: block;
+}
+.homeMain .myOrder .searchBox a:hover {
+	background: rgb(226, 136, 2); text-decoration: none;
+}
+.homeMain .myOrder .orderChoose {
+	background: rgb(229, 239, 250); padding: 5px 15px; height: 25px; margin-top: 25px;
+}
+.homeMain .myOrder .orderChoose a {
+	background: rgb(255, 255, 255); padding: 0px 10px; border: 1px solid rgb(218, 221, 224); border-image: none; height: 23px; color: rgb(37, 119, 227); line-height: 23px; font-size: 14px; margin-right: 1px; float: left; display: block;
+}
+.homeMain .myOrder .orderChoose a strong {
+	color: rgb(255, 153, 0); font-weight: normal;
+}
+.homeMain .myOrder .orderChoose a:hover {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); text-decoration: none;
+}
+.homeMain .myOrder .orderChoose a.current {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); text-decoration: none;
+}
+.homeMain .myOrder .orderChoose a:hover strong {
+	color: rgb(255, 255, 255);
+}
+.homeMain .myOrder .orderChoose a.current strong {
+	color: rgb(255, 255, 255);
+}
+.homeMain .myOrder .orderList .orderHeader {
+	border: 1px solid rgb(255, 255, 255); border-image: none; height: 55px; line-height: 55px; padding-left: 15px; font-size: 14px;
+}
+.homeMain .myOrder .orderList .wd {
+	font-size: 12px; float: left; display: block;
+}
+.homeMain .myOrder .orderList .orderEach {
+	border: 1px solid rgb(243, 243, 243); border-image: none; margin-bottom: 10px;
+}
+.homeMain .myOrder .orderList .eachHeader {
+	background: rgb(241, 248, 254); height: 27px; line-height: 27px; padding-left: 15px;
+}
+.homeMain .myOrder .orderList .orderHeader .wd {
+	font-size: 14px;
+}
+.homeMain .myOrder .orderList .wd_1 {
+	width: 160px; padding-right: 10px;
+}
+.homeMain .myOrder .orderList .wd_2 {
+	width: 140px;
+}
+.homeMain .myOrder .orderList .wd_3 {
+	width: 135px;
+}
+.homeMain .myOrder .orderList .wd_4 {
+	width: 130px;
+}
+.homeMain .myOrder .orderList .wd_5 {
+	width: 100px;
+}
+.homeMain .myOrder .orderList .wd_7 {
+	width: 405px;
+}
+.homeMain .myOrder .orderList .orderCon {
+	padding-left: 15px;
+}
+.homeMain .myOrder .orderList .orderCon .wd {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.homeMain .myOrder .orderList .eachHeader a {
+	color: rgb(37, 119, 227);
+}
+.homeMain .myOrder .orderList .eachHeader strong {
+	color: rgb(37, 119, 227); font-weight: normal;
+}
+.homeMain .myOrder .orderList .orderCon a {
+	color: rgb(37, 119, 227); display: block;
+}
+.homeMain .myOrder .orderList .orderCon a.doBtn {
+	background: rgb(255, 153, 0); border-radius: 2px; width: 60px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px;
+}
+.homeMain .myOrder .orderList .orderCon a.doBtn:hover {
+	background: rgb(226, 136, 2); text-decoration: none;
+}
+.homeMain .myOrder .orderList .orderCon a.doNotBtn {
+	background: rgb(174, 174, 174); border-radius: 2px; width: 60px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px;
+}
+.homeMain .myOrder .orderList .orderCon a.doNotBtn:hover {
+	background: rgb(148, 148, 148); text-decoration: none;
+}
+.homeMain .myOrder .orderList .orderCon .wd_4 {
+	color: rgb(255, 0, 0);
+}
+.zhuc .crumbs {
+	padding: 10px 0px;
+}
+.zhuc .zhucMain {
+	padding: 20px 25px 40px; border-top-color: rgb(37, 119, 227); border-top-width: 2px; border-top-style: solid;
+}
+.zhuc .zhucMain h2 {
+	padding-bottom: 15px; font-size: 20px;
+}
+.zhuc .zhucMain h2 span {
+	font-size: 14px; margin-left: 30px;
+}
+.zhuc .zhucMain h2 strong {
+	margin: 0px 3px; color: rgb(255, 153, 0); font-weight: normal;
+}
+.zhuc .zhucMain dl {
+	font-size: 14px; margin-top: 20px;
+}
+.zhuc .zhucMain dl dt {
+	width: 125px; height: 30px; text-align: right; line-height: 30px; float: left; display: block;
+}
+.zhuc .zhucMain dl dd {
+	margin-left: 130px;
+}
+.zhuc .zhucMain dl dd .textIn {
+	padding: 0px 5px; border: 1px solid rgb(132, 132, 132); border-image: none; width: 280px; height: 28px; line-height: 28px; font-size: 12px;
+}
+.zhuc .zhucMain dl dd .textIn_1 {
+	width: 170px;
+}
+.zhuc .zhucMain dl dd select {
+	padding: 4px 0px; border: 1px solid rgb(132, 132, 132); border-image: none; width: 290px;
+}
+.zhuc .zhucMain dl dd .sex {
+	padding-top: 6px; margin-right: 15px; display: inline-block;
+}
+.zhuc .zhucMain dl dd .sex input {
+	vertical-align: middle;
+}
+.zhuc .zhucMain dl dd label {
+	margin-left: 5px; vertical-align: middle; cursor: pointer;
+}
+.zhuc .zhucMain dl dd label em {
+	color: rgb(97, 128, 255); font-style: normal;
+}
+.zhuc .zhucMain dl dd .zcBtn {
+	background: rgb(255, 153, 0); border-radius: 2px; width: 160px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; display: block;
+}
+.zhuc .zhucMain dl dd .zcBtn:hover {
+	background: rgb(226, 136, 2); text-decoration: none;
+}
+.zhuc .loginMain {
+	padding: 20px 25px; border-top-color: rgb(37, 119, 227); border-top-width: 2px; border-top-style: solid;
+}
+.zhuc .loginMain .border {
+	border-bottom-color: rgb(216, 216, 216); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.zhuc .loginMain .leftLogin {
+	width: 465px; padding-bottom: 30px; border-right-color: rgb(216, 216, 216); border-right-width: 2px; border-right-style: solid; float: left;
+}
+.zhuc .loginMain .leftLogin h2 {
+	padding: 5px 0px; font-size: 20px;
+}
+.zhuc .loginMain .leftLogin h2 span {
+	font-size: 14px; margin-left: 30px;
+}
+.zhuc .loginMain .leftLogin h2 strong {
+	margin: 0px 3px; color: rgb(255, 153, 0); font-weight: normal;
+}
+.zhuc .loginMain .leftLogin dl {
+	font-size: 14px; margin-top: 20px;
+}
+.zhuc .loginMain .leftLogin dl dt {
+	width: 100px; height: 30px; text-align: right; line-height: 30px; float: left; display: block;
+}
+.zhuc .loginMain .leftLogin dl dd {
+	margin-left: 110px;
+}
+.zhuc .loginMain .leftLogin dl dd .textIn {
+	padding: 0px 5px; border: 1px solid rgb(132, 132, 132); border-image: none; width: 280px; height: 28px; line-height: 28px; font-size: 12px;
+}
+.zhuc .loginMain .leftLogin dl dd .textIn_1 {
+	width: 170px;
+}
+.zhuc .loginMain .leftLogin dl dd select {
+	padding: 4px 0px; border: 1px solid rgb(132, 132, 132); border-image: none; width: 290px;
+}
+.zhuc .loginMain .leftLogin dl dd .sex {
+	padding-top: 6px; margin-right: 15px; display: inline-block;
+}
+.zhuc .loginMain .leftLogin dl dd .sex input {
+	vertical-align: middle;
+}
+.zhuc .loginMain .leftLogin dl dd label {
+	margin-left: 5px; vertical-align: middle; cursor: pointer;
+}
+.zhuc .loginMain .leftLogin dl dd label em {
+	color: rgb(97, 128, 255); font-style: normal;
+}
+.zhuc .loginMain .leftLogin dl dd .zcBtn {
+	background: rgb(255, 153, 0); border-radius: 2px; width: 150px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; margin-right: 15px; display: inline-block;
+}
+.zhuc .loginMain .leftLogin dl dd .getBtn {
+	background: rgb(255, 153, 0); border-radius: 2px; width: 150px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; margin-right: 15px; display: inline-block;
+}
+.zhuc .loginMain .leftLogin dl dd .zcBtn:hover {
+	background: rgb(226, 136, 2); text-decoration: underline;
+}
+.zhuc .loginMain .leftLogin dl dd .getBtn:hover {
+	background: rgb(226, 136, 2); text-decoration: underline;
+}
+.zhuc .loginMain .leftLogin dl dd .getBtn {
+	width: 105px; vertical-align: middle;
+}
+.zhuc .loginMain .leftLogin dl dd .zcLink {
+	color: rgb(97, 128, 255);
+}
+.zhuc .loginMain .leftLogin .fastLogin {
+	padding: 10px 0px; margin-top: 25px; border-top-color: rgb(216, 216, 216); border-top-width: 2px; border-top-style: dashed;
+}
+.zhuc .loginMain .leftLogin .fastLogin a.qq {
+	background: url("../images/QQ.jpg") no-repeat; width: 74px; height: 28px; text-indent: -9999px; margin-right: 25px; float: left; display: block;
+}
+.zhuc .loginMain .leftLogin .fastLogin a.alipay {
+	background: url("../images/Ö§¸¶±¦.jpg") no-repeat; width: 74px; height: 28px; text-indent: -9999px; margin-right: 15px; float: left; display: block;
+}
+.zhuc .loginMain .otherLogin {
+	width: 450px; padding-top: 10px; padding-left: 40px; font-size: 14px; float: left;
+}
+.zhuc .loginMain .otherLogin .tips {
+	background: url("../images/news_tips.png") no-repeat left; padding-left: 18px;
+}
+.zhuc .loginMain .otherLogin dl {
+	margin-top: 20px;
+}
+.zhuc .loginMain .otherLogin dl dt {
+	width: 330px; float: left;
+}
+.zhuc .loginMain .otherLogin dl dt h3 {
+	background: url("../images/icon_4.png") no-repeat 0px 1px; color: rgb(37, 119, 227); padding-bottom: 3px; padding-left: 30px;
+}
+.zhuc .loginMain .otherLogin dl dt p {
+	padding-left: 30px;
+}
+.zhuc .loginMain .otherLogin dl dd {
+	padding: 5px 0px 0px 20px; float: left;
+}
+.zhuc .loginMain .otherLogin dl dd a {
+	border: 1px solid rgb(193, 193, 193); border-image: none; width: 90px; height: 28px; text-align: center; line-height: 26px; display: block;
+}
+.zhuc .loginMain .otherLogin dl dd a:hover {
+	border: 1px solid rgb(37, 119, 227); border-image: none; text-decoration: none;
+}
+.zhuc .friend {
+	padding: 0px 25px 40px; overflow: hidden;
+}
+.zhuc .friend h2 {
+	padding: 5px 0px 30px; font-size: 20px;
+}
+.zhuc .friend h2 span {
+	font-size: 14px; margin-top: 5px; float: right;
+}
+.zhuc .friend .friendBox {
+	width: 1200px;
+}
+.zhuc .friend a {
+	margin: 0px 79px 20px 0px; border: 2px solid rgb(216, 216, 216); border-image: none; width: 180px; height: 100px; float: left; display: inline-block;
+}
+.zhuc .friend a:hover {
+	border: 2px solid rgb(37, 119, 227); border-image: none;
+}
+.homeMain .homeCoupons {
+	margin: 20px;
+}
+.homeMain .homeCoupons h3 {
+	background: rgb(229, 239, 250); height: 27px; line-height: 27px; padding-left: 15px; font-size: 14px;
+}
+.homeMain .homeCoupons h4 {
+	padding: 13px 0px 0px 15px; font-size: 14px;
+}
+.homeMain .homeCoupons h4 span {
+	margin-left: 30px;
+}
+.homeMain .homeCoupons h4 strong {
+	margin: 0px 5px; color: rgb(255, 0, 0); font-weight: normal;
+}
+.homeMain .homeCoupons .searchBox {
+	padding: 13px 0px 0px; height: 22px; line-height: 22px; font-size: 14px;
+}
+.homeMain .homeCoupons .searchBox span {
+	padding-right: 5px; padding-left: 15px;
+}
+.homeMain .homeCoupons .searchBox .textIn {
+	padding: 0px 5px; border: 1px solid rgb(100, 100, 100); border-image: none; width: 90px; height: 20px; line-height: 20px; font-size: 12px; margin-right: 3px;
+}
+.homeMain .homeCoupons .searchBox a {
+	background: rgb(255, 153, 0); width: 100px; height: 22px; text-align: center; color: rgb(255, 255, 255); line-height: 21px; font-size: 12px; margin-right: 20px; float: right; display: block;
+}
+.homeMain .homeCoupons .searchBox a:hover {
+	background: rgb(226, 136, 2); text-decoration: none;
+}
+.homeMain .homeCoupons .couponsChoose {
+	margin: 20px 0px; height: 30px;
+}
+.homeMain .homeCoupons .couponsChoose a {
+	padding: 0px 10px; border: 1px solid rgb(225, 225, 225); border-image: none; height: 28px; line-height: 27px; font-size: 14px; margin-right: 1px; float: left; display: block;
+}
+.homeMain .homeCoupons .couponsChoose a span {
+	background: rgb(255, 0, 0); margin: -2px 0px 0px 3px; border-radius: 20px; width: 20px; height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 19px; font-size: 12px; vertical-align: middle; display: inline-block;
+}
+.homeMain .homeCoupons .couponsChoose a.current {
+	border: 1px solid rgb(37, 119, 227); border-image: none; color: rgb(37, 119, 227);
+}
+.homeMain .homeCoupons .couponsListBox {
+	overflow: hidden;
+}
+.homeMain .homeCoupons .couponsList {
+	width: 850px;
+}
+.homeMain .homeCoupons .couponsList .each {
+	width: 195px; margin-right: 10px; margin-bottom: 13px; float: left;
+}
+.homeMain .homeCoupons .couponsList .each .cMain {
+	height: 210px; position: relative;
+}
+.homeMain .homeCoupons .couponsList .each .cMain .couInfo {
+	padding: 0px 10px; height: 125px; color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-top-width: 5px; border-top-style: dotted;
+}
+.homeMain .homeCoupons .couponsList .each .cMain .coupon_1 {
+	background: rgb(255, 90, 90);
+}
+#couponDetail .detailMain .coupon_1 {
+	background: rgb(255, 90, 90);
+}
+.homeMain .homeCoupons .couponsList .each .cMain .coupon_2 {
+	background: rgb(109, 166, 240);
+}
+#couponDetail .detailMain .coupon_2 {
+	background: rgb(109, 166, 240);
+}
+.homeMain .homeCoupons .couponsList .each .cMain .coupon_3 {
+	background: rgb(255, 111, 40);
+}
+#couponDetail .detailMain .coupon_3 {
+	background: rgb(255, 111, 40);
+}
+.homeMain .homeCoupons .couponsList .each .cMain .coupon_4 {
+	background: rgb(255, 172, 40);
+}
+#couponDetail .detailMain .coupon_4 {
+	background: rgb(255, 172, 40);
+}
+.homeMain .homeCoupons .couponsList .each .cMain .couInfo h5 {
+	padding: 10px 0px; font-size: 18px;
+}
+.homeMain .homeCoupons .couponsList .each .cMain .couInfo h5 span {
+	font-size: 12px; margin-top: 8px; float: right;
+}
+.homeMain .homeCoupons .couponsList .each .cMain .couInfo p {
+	font-size: 12px;
+}
+.homeMain .homeCoupons .couponsList .each .cMain .hasPast {
+	background: rgba(0, 0, 0, 0.6); left: 0px; top: 0px; width: 195px; height: 210px; text-align: center; position: absolute;
+}
+.homeMain .homeCoupons .couponsList .each .cMain .hasPast img {
+	margin-top: 30px;
+}
+.homeMain .homeCoupons .couponsList .each .couIcon {
+	height: 20px; text-align: center; margin-top: 5px;
+}
+.homeMain .homeCoupons .couponsList .each .couIcon a.see {
+	background: url("../images/icon_5.png") no-repeat 0px 0px; width: 20px; height: 19px; text-align: left; text-indent: -9999px; margin-right: 10px; display: inline-block;
+}
+.homeMain .homeCoupons .couponsList .each .couIcon a.see:hover {
+	background: url("../images/icon_5_hover.png") no-repeat 0px 0px;
+}
+.homeMain .homeCoupons .couponsList .each .couIcon a.use {
+	background: url("../images/icon_6.png") no-repeat 0px 2px; width: 21px; height: 19px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.homeMain .homeCoupons .couponsList .each .couIcon a.use:hover {
+	background: url("../images/icon_6_hover.png") no-repeat 0px 2px;
+}
+#couponDetail {
+	background: rgb(255, 255, 255); margin: -240px 0px 0px -275px; left: 50%; top: 50%; width: 550px; height: 480px; display: none; position: fixed; z-index: 99999;
+}
+#couponDetail .detailMain {
+	position: relative;
+}
+#couponDetail .detailMain .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -306px 0px; top: 0px; width: 35px; height: 35px; right: -40px; text-indent: -9999px; display: block; position: absolute;
+}
+#couponDetail .detailMain .couponInfo {
+	padding: 0px 30px; height: 195px; color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 5px; border-bottom-style: dotted;
+}
+#couponDetail .detailMain .couponInfo h2 {
+	padding: 30px 0px; font-size: 30px;
+}
+#couponDetail .detailMain .couponInfo h2 a {
+	background: url("../images/btn_bj.png") repeat-x 0px 0px; border-radius: 5px; border: 1px solid rgb(228, 228, 228); border-image: none; width: 140px; height: 37px; text-align: center; color: rgb(255, 90, 90); line-height: 35px; font-size: 16px; margin-top: 5px; float: right; display: block;
+}
+#couponDetail .detailMain .couponInfo p {
+	font-size: 14px;
+}
+#couponDetail .detailMain .details {
+	padding: 0px 15px; height: 260px; overflow: hidden; margin-top: 10px; -ms-overflow-y: auto;
+}
+#couponDetail .detailMain .details p {
+	padding-bottom: 10px; font-size: 14px;
+}
+.showLoving .newsList {
+	padding: 15px;
+}
+.showLoving .newsList h3 {
+	font-size: 14px;
+}
+.showLoving .newsList ul {
+	padding: 10px 0px; border-bottom-color: rgb(236, 236, 236); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.showLoving .newsList ul li {
+	height: 28px; line-height: 28px; font-size: 14px;
+}
+.showLoving .newsList ul li span {
+	float: right;
+}
+.showLoving .newsList ul li span.total {
+	margin-right: 40px;
+}
+.showLoving .newsList ul li a em {
+	color: rgb(255, 0, 0); margin-left: 10px;
+}
+.homeMain .orderDetail {
+	margin: 20px; padding-bottom: 30px;
+}
+.homeMain .orderDetail h3 {
+	background: rgb(237, 242, 249); height: 28px; line-height: 28px; padding-left: 20px; font-size: 14px; margin-bottom: 15px;
+}
+.homeMain .orderDetail dl {
+	padding-bottom: 10px; font-size: 14px;
+}
+.homeMain .orderDetail dl.bBottom {
+	padding-bottom: 20px; margin-bottom: 20px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.homeMain .orderDetail dl dt {
+	width: 125px; text-align: right; float: left; display: block;
+}
+.homeMain .orderDetail dl dd {
+	width: 600px; float: left;
+}
+.homeMain .orderDetail dl dd span {
+	margin-left: 30px;
+}
+.homeMain .orderDetail dl dd .colorY {
+	color: rgb(255, 153, 0); padding-bottom: 5px;
+}
+.homeMain .orderDetail dl dd em {
+	color: rgb(255, 153, 0); font-style: normal;
+}
+.homeMain .orderDetail dl dd strong {
+	color: rgb(255, 0, 0);
+}
+.homeMain .orderDetail .btnBox {
+	padding: 20px 0px 0px 80px; height: 30px;
+}
+.homeMain .orderDetail .btnBox a {
+	border: 1px solid rgb(193, 193, 193); border-image: none; width: 125px; height: 28px; text-align: center; line-height: 26px; font-size: 14px; margin-right: 20px; float: left; display: block;
+}
+.homeMain .orderDetail .btnBox .btn_1 {
+	background: rgb(255, 153, 0); border: 1px solid rgb(255, 153, 0); border-image: none; color: rgb(255, 255, 255);
+}
+.homeMain .orderDetail .btnBox .btn_1:hover {
+	background: rgb(221, 133, 2); border: 1px solid rgb(221, 133, 2); border-image: none; color: rgb(255, 255, 255); text-decoration: none;
+}
+.freeDetail {
+	padding-top: 15px; padding-bottom: 30px;
+}
+.freeDetail .hotalShow {
+	width: 405px; float: left;
+}
+.freeDetail .hotalShow .showMain {
+	width: 405px; height: 270px; margin-bottom: 5px;
+}
+.freeDetail .hotalShow .showSmall {
+	width: 405px; position: relative;
+}
+.freeDetail .hotalShow .showSmall a.prev {
+	font: 700 35px/normal arial; top: 0px; width: 30px; height: 50px; text-align: center; display: block; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.freeDetail .hotalShow .showSmall a.next {
+	font: 700 35px/normal arial; top: 0px; width: 30px; height: 50px; text-align: center; display: block; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.freeDetail .hotalShow .showSmall a.prev:hover {
+	color: rgb(255, 153, 0); text-decoration: none;
+}
+.freeDetail .hotalShow .showSmall a.next:hover {
+	color: rgb(255, 153, 0); text-decoration: none;
+}
+.freeDetail .hotalShow .showSmall a.prev {
+	left: 0px;
+}
+.freeDetail .hotalShow .showSmall a.next {
+	right: 0px;
+}
+.freeDetail .hotalShow .showSmall .show {
+	margin: 0px auto; width: 315px; height: 50px; overflow: hidden; position: relative;
+}
+.freeDetail .hotalShow .showSmall .show a {
+	margin: 0px 5px 0px 0px; width: 75px; height: 50px; float: left; display: block;
+}
+.freeDetail .hotalShow .showSmall .show .showM {
+	left: 0px; top: 0px; width: 1000000px; position: absolute;
+}
+.freeDetail .hotalDetail {
+	width: 560px; padding-right: 30px; float: right;
+}
+.freeDetail .hotalDetail h2 {
+	color: rgb(70, 70, 70); font-size: 20px;
+}
+.freeDetail .hotalDetail .tips {
+	padding: 5px 0px; color: rgb(170, 170, 170); font-size: 14px;
+}
+.freeDetail .hotalDetail .price {
+	color: rgb(255, 153, 0); font-size: 35px;
+}
+.freeDetail .hotalDetail .price span {
+	color: rgb(170, 170, 170); font-size: 14px; text-decoration: line-through; margin-left: 20px;
+}
+.freeDetail .hotalDetail dl {
+	font-size: 14px; margin-top: 5px;
+}
+.freeDetail .hotalDetail dl dt {
+	width: 40px; line-height: 26px; float: left; display: block;
+}
+.freeDetail .hotalDetail dl dd {
+	margin-left: 40px; min-height: 26px;
+}
+.freeDetail .hotalDetail dl dd .textIn {
+	background: url("../images/time_icon.jpg") no-repeat 140px 3px rgb(255, 255, 255); padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; width: 150px; height: 24px; line-height: 24px; margin-right: 15px; float: left; display: block;
+}
+.freeDetail .hotalDetail dl dd span {
+	line-height: 26px; margin-right: 5px; float: left; display: block;
+}
+.freeDetail .hotalDetail dl .roomChoose a {
+	padding: 0px 10px; border: 1px solid rgb(207, 207, 207); border-image: none; height: 24px; line-height: 23px; margin-right: 5px; margin-bottom: 5px; float: left; display: block; position: relative;
+}
+.freeDetail .hotalDetail dl .roomChoose a em {
+	background: url("../images/choose_icon.jpg") no-repeat 0px 0px; width: 8px; height: 8px; right: 0px; bottom: 0px; display: none; position: absolute;
+}
+.freeDetail .hotalDetail dl .roomChoose a.current {
+	border: 1px solid rgb(255, 153, 0); border-image: none;
+}
+.freeDetail .hotalDetail dl .roomChoose a.current em {
+	display: block;
+}
+.freeDetail .hotalDetail dl dd .buyNum {
+	border: 1px solid rgb(207, 207, 207); border-image: none; width: 100px; height: 24px;
+}
+.freeDetail .hotalDetail dl dd .buyNum a {
+	background: rgb(245, 245, 245); width: 24px; height: 24px; text-align: center; line-height: 21px; font-size: 20px; float: left; display: block;
+}
+.freeDetail .hotalDetail dl dd .buyNum a:hover {
+	text-decoration: none;
+}
+.freeDetail .hotalDetail dl dd .buyNum input {
+	border-width: medium 1px; border-style: none solid; border-color: currentColor rgb(207, 207, 207); padding: 0px 5px; border-image: none; width: 40px; height: 24px; text-align: center; line-height: 24px; float: left; display: block;
+}
+.freeDetail .hotalDetail .btnBox {
+	height: 40px; margin-top: 20px;
+}
+.freeDetail .hotalDetail .btnBox a {
+	width: 180px; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-size: 16px; margin-right: 10px; float: left; display: block;
+}
+.freeDetail .hotalDetail .btnBox a.buyBtn {
+	background: rgb(255, 153, 0);
+}
+.freeDetail .hotalDetail .btnBox a.buyBtn:hover {
+	background: rgb(222, 134, 2); text-decoration: none;
+}
+.freeDetail .hotalDetail .btnBox a.grayBtn {
+	background: rgb(153, 153, 153);
+}
+.freeDetail .hotalDetail .btnBox a.grayBtn:hover {
+	background: rgb(153, 153, 153); text-decoration: none;
+}
+.freeDetail .youLike {
+	margin-top: 30px;
+}
+.freeDetail .youLike h3 {
+	height: 33px; margin-bottom: 15px; border-bottom-color: rgb(37, 119, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.freeDetail .youLike h3 span {
+	background: rgb(37, 119, 227); padding: 0px 15px; height: 33px; color: rgb(255, 255, 255); line-height: 33px; font-size: 14px; float: left; display: block;
+}
+.freeDetail .youLike .likeBox {
+	width: 1024px; overflow: hidden;
+}
+.freeDetail .youLike .likeBox .like {
+	width: 1100px;
+}
+.freeDetail .youLike .likeBox .like .each {
+	border: 1px solid rgb(238, 238, 238); border-image: none; width: 245px; padding-bottom: 5px; margin-right: 12px; float: left;
+}
+.freeDetail .youLike .likeBox .like .each h4 {
+	padding: 5px; font-size: 14px;
+}
+.freeDetail .youLike .likeBox .like .each .tips {
+	padding: 0px 5px; color: rgb(170, 170, 170); font-size: 12px;
+}
+.freeDetail .youLike .likeBox .like .each .mark {
+	padding: 5px; height: 20px;
+}
+.freeDetail .youLike .likeBox .like .each .mark span {
+	padding: 0px 10px; border: 1px solid rgb(37, 119, 227); border-image: none; height: 18px; color: rgb(37, 119, 227); line-height: 18px; font-size: 12px; margin-right: 5px; float: left; display: block;
+}
+.freeDetail .youLike .likeBox .like .each .price {
+	padding: 0px 5px; color: rgb(255, 154, 21); font-size: 20px;
+}
+.freeDetail .youLike .likeBox .like .each .price span {
+	color: rgb(170, 170, 170); font-size: 12px; text-decoration: line-through; margin-left: 10px;
+}
+.freeDetail .youLike .likeBox .like .each .price em {
+	color: rgb(170, 170, 170); font-size: 12px; font-style: normal; margin-top: 8px; float: right;
+}
+.freeDetail .moreDetail {
+	margin-top: 30px;
+}
+.freeDetail .moreDetail h3 {
+	height: 33px; margin-bottom: 15px; border-bottom-color: rgb(37, 119, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.freeDetail .moreDetail h3 a {
+	background: rgb(255, 255, 255); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(37, 119, 227) rgb(37, 119, 227) currentColor; padding: 0px 15px; border-image: none; height: 32px; color: rgb(37, 119, 227); line-height: 32px; font-size: 14px; float: left; display: block;
+}
+.freeDetail .moreDetail h3 a.current {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255);
+}
+.freeDetail .moreDetail .show p {
+	line-height: 23px; padding-bottom: 10px; font-size: 14px;
+}
+.free {
+	padding: 5px 0px 50px;
+}
+.free .freeNav {
+	width: 220px; float: left;
+}
+.free .freeNav h2 {
+	background: rgb(37, 119, 227); height: 33px; text-align: center; color: rgb(255, 255, 255); line-height: 33px; font-size: 14px;
+}
+.free .freeNav .each {
+	padding: 0px 0px 20px;
+}
+.free .freeNav .each h3 {
+	padding-bottom: 5px; font-size: 14px;
+}
+.free .freeNav .each a {
+	background: url("../images/icon_8.png") no-repeat left; height: 25px; line-height: 25px; padding-left: 10px; font-size: 14px; margin-right: 10px; display: block; white-space: nowrap;
+}
+.free .freeNav .each a.current {
+	color: rgb(255, 153, 0);
+}
+.free .freeNav .aDisplay a {
+	margin: 0px; display: block;
+}
+.free .freeList {
+	width: 781px; float: right;
+}
+.free .freeList .freeSearch {
+	margin: 0px auto; width: 530px;
+}
+.free .freeList .freeSearch .searchBox {
+	width: 530px; height: 40px; position: relative;
+}
+.free .freeList .freeSearch .searchBox a {
+	background: rgb(255, 154, 21); top: 0px; width: 100px; height: 40px; text-align: center; right: 0px; color: rgb(255, 255, 255); line-height: 40px; font-size: 16px; display: block; position: absolute;
+}
+.free .freeList .freeSearch .searchBox a:hover {
+	background: rgb(225, 133, 11); text-decoration: none;
+}
+.free .freeList .freeSearch .searchBox input {
+	padding: 0px 10px; border: 2px solid rgb(255, 154, 21); border-image: none; width: 406px; height: 36px; line-height: 36px; font-size: 14px;
+}
+.free .freeList .freeSearch p {
+	padding: 5px; font-size: 14px;
+}
+.free .freeList .freeSearch p a {
+	margin-right: 10px;
+}
+.free .freeList .likeBox {
+	width: 781px; overflow: hidden; margin-top: 20px;
+}
+.free .freeList .likeBox .like {
+	width: 820px;
+}
+.free .freeList .likeBox .like .each {
+	border: 1px solid rgb(238, 238, 238); border-image: none; width: 245px; height: 275px; padding-bottom: 5px; margin-right: 20px; margin-bottom: 15px; float: left;
+}
+.free .freeList .likeBox .like .each:hover {
+	border: 1px solid rgb(255, 153, 0); border-image: none;
+}
+.free .freeList .likeBox .like .each h4 {
+	padding: 5px; font-size: 14px;
+}
+.free .freeList .likeBox .like .each .tips {
+	padding: 0px 5px; color: rgb(170, 170, 170); font-size: 12px;
+}
+.free .freeList .likeBox .like .each .mark {
+	padding: 5px; height: 20px;
+}
+.free .freeList .likeBox .like .each .mark span {
+	padding: 0px 10px; border: 1px solid rgb(37, 119, 227); border-image: none; height: 18px; color: rgb(37, 119, 227); line-height: 18px; font-size: 12px; margin-right: 5px; float: left; display: block;
+}
+.free .freeList .likeBox .like .each .price {
+	padding: 0px 5px; color: rgb(255, 154, 21); font-size: 20px;
+}
+.free .freeList .likeBox .like .each .price span {
+	color: rgb(170, 170, 170); font-size: 12px; text-decoration: line-through; margin-left: 10px;
+}
+.free .freeList .likeBox .like .each .price em {
+	color: rgb(170, 170, 170); font-size: 12px; font-style: normal; margin-top: 8px; float: right;
+}
+.vipAbout .homeMain {
+	border: currentColor; border-image: none;
+}
+.vipAbout .homeMain .about {
+	padding-bottom: 40px;
+}
+.vipAbout .homeMain .about img {
+	margin-bottom: 10px;
+}
+.vipAbout .homeMain .about h3 {
+	color: rgb(51, 51, 51); padding-bottom: 10px; font-size: 16px;
+}
+.vipAbout .homeMain .about p {
+	padding-bottom: 10px; font-size: 14px;
+}
+.vipAbout .homeNav .borderTop {
+	border-top-color: rgb(37, 119, 227); border-top-width: 2px; border-top-style: solid;
+}
+.otherSearch {
+	background: rgb(37, 119, 227); padding: 5px; margin-bottom: 30px;
+}
+.otherSearch .otherBox {
+	background: rgb(255, 255, 255); padding: 0px 5px 10px;
+}
+.otherSearch h2 {
+	background: url("../images/hotal_icon.png") no-repeat left; padding: 0px 0px 5px 20px; color: rgb(255, 255, 255); font-size: 14px;
+}
+.otherSearch .otherBox dl {
+	padding-top: 10px;
+}
+.otherSearch .otherBox dl dt {
+	width: 50px; line-height: 22px; float: left; display: block;
+}
+.otherSearch .otherBox dl dd {
+	width: 130px; float: right; display: block;
+}
+.otherSearch .otherBox dl dd .textIn {
+	padding: 0px 5px; border: 1px solid rgb(207, 207, 207); border-image: none; width: 118px; height: 20px; line-height: 20px;
+}
+.otherSearch .otherBox dl dd .icon {
+	background: url("../images/time_icon.jpg") no-repeat 108px 2px;
+}
+.otherSearch .otherBox dl dd .btn {
+	background: rgb(255, 153, 0); width: 130px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px; display: block;
+}
+.otherSearch .otherBox dl dd .btn:hover {
+	background: rgb(233, 140, 0); text-decoration: none;
+}
+.otherSearch .otherBox dl dd .placeBox {
+	width: 130px; height: 22px; position: relative; z-index: 100;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_1 {
+	background: rgb(255, 255, 255); padding: 5px 10px 10px; border: 1px solid rgb(207, 207, 207); border-image: none; left: 0px; top: 21px; width: 400px; display: none; position: absolute; z-index: 999;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_2 {
+	background: rgb(255, 255, 255); padding: 5px 10px 10px; border: 1px solid rgb(207, 207, 207); border-image: none; left: 0px; top: 21px; width: 400px; display: none; position: absolute; z-index: 999;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_1 h4 {
+	color: rgb(146, 146, 146); padding-bottom: 5px; font-size: 14px;
+}
+.otherSearch .otherBox dl dd .placeBox .posBox a.close {
+	margin: 0px; width: 20px; height: 20px; text-align: center; line-height: 20px; font-size: 20px; float: right; display: block;
+}
+.otherSearch .otherBox dl dd .placeBox .posBox a.close:hover {
+	text-decoration: none;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_1 h3 {
+	color: rgb(0, 102, 205); font-size: 14px;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_1 a {
+	line-height: 20px; margin-right: 20px; white-space: nowrap;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_1 .choose {
+	margin: 10px 0px 5px; height: 25px; line-height: 25px;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_1 .choose a {
+	margin: 0px; padding: 0px 10px; height: 23px; border-bottom-color: rgb(146, 146, 146); border-bottom-width: 2px; border-bottom-style: solid; float: left; display: block;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_1 .choose a.current {
+	color: rgb(37, 119, 227); border-bottom-color: rgb(37, 119, 227); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_2 {
+	padding: 5px 0px 10px;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_2 h4 {
+	margin: 0px 10px 10px; padding: 3px 0px; font-size: 14px; border-bottom-color: rgb(146, 146, 146); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_2 li a {
+	padding: 0px 10px; height: 25px; line-height: 25px; font-size: 14px; display: block;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_2 li a:hover {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); text-decoration: none;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_2 .page {
+	padding: 10px 0px 0px; text-align: center;
+}
+.otherSearch .otherBox dl dd .placeBox .destination_2 .page a {
+	font-size: 14px; margin-right: 5px;
+}
+.integral {
+	padding: 8px 0px 30px;
+}
+.integral .crumbs {
+	padding-bottom: 8px;
+}
+.integral .integralNav {
+	width: 200px; float: left;
+}
+.integral .integralNav h3 {
+	background: rgb(37, 119, 227); height: 33px; text-align: center; color: rgb(255, 255, 255); line-height: 33px; font-size: 14px;
+}
+.integral .integralNav ul {
+	padding: 8px;
+}
+.integral .integralNav li {
+	line-height: 25px; font-size: 14px;
+}
+.integral .integralNav li em {
+	color: rgb(37, 119, 227); font-style: normal;
+}
+.integral .integralNav li strong {
+	color: rgb(255, 0, 0); font-weight: normal;
+}
+.integral .integralNav .each {
+	margin: 10px 0px;
+}
+.integral .integralNav .co {
+	background: url("../images/icon_8.png") no-repeat left; margin: 0px 8px; height: 25px; line-height: 25px; padding-left: 10px; font-size: 14px; display: block;
+}
+.integral .integralMain {
+	border-width: 2px 1px 1px; border-style: solid; border-color: rgb(37, 119, 227) rgb(189, 189, 189) rgb(189, 189, 189); border-image: none; width: 805px; float: right;
+}
+.integral .integralMain .giftEchop {
+	padding: 15px;
+}
+.integral .integralMain .giftEchop h2 {
+	color: rgb(37, 119, 227); padding-bottom: 5px; font-size: 15px;
+}
+.integral .integralMain .giftEchop .searchBox {
+	padding: 10px 0px; height: 28px; font-size: 14px;
+}
+.integral .integralMain .giftEchop .searchBox span {
+	margin: 0px 10px; line-height: 28px;
+}
+.integral .integralMain .giftEchop .searchBox input.textIn {
+	margin: 0px 10px; padding: 0px 5px; border: 1px solid rgb(189, 189, 189); border-image: none; width: 150px; height: 26px; line-height: 26px;
+}
+.integral .integralMain .giftEchop .searchBox select {
+	padding: 3px 0px;
+}
+.integral .integralMain .giftEchop .searchBox input {
+	vertical-align: middle;
+}
+.integral .integralMain .giftEchop .searchBox label {
+	margin-left: 5px; vertical-align: middle; cursor: pointer;
+}
+.integral .integralMain .giftEchop .searchBox a {
+	background: rgb(255, 153, 0); padding: 0px 25px; height: 28px; color: rgb(255, 255, 255); line-height: 28px; margin-left: 20px; display: inline-block;
+}
+.integral .integralMain .giftEchop .searchBox a:hover {
+	background: rgb(227, 138, 4); text-decoration: none;
+}
+.integral .integralMain .giftEchop .gigtList {
+	padding: 20px 0px;
+}
+.integral .integralMain .giftEchop .gigtList h3 {
+	background: rgb(237, 242, 249); height: 38px; line-height: 38px; padding-left: 10px; font-size: 14px;
+}
+.integralMain .giftEchop .useAds h3 {
+	background: rgb(237, 242, 249); height: 38px; line-height: 38px; padding-left: 10px; font-size: 14px;
+}
+.giftDetail h3 {
+	background: rgb(237, 242, 249); height: 38px; line-height: 38px; padding-left: 10px; font-size: 14px;
+}
+.integral .integralMain .giftEchop .gigtList table {
+	margin-top: 15px; border-top-color: rgb(189, 189, 189); border-left-color: rgb(189, 189, 189); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.integral .integralMain .giftEchop .gigtList table td {
+	padding: 10px; font-size: 14px; border-right-color: rgb(219, 219, 219); border-bottom-color: rgb(219, 219, 219); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.integral .integralMain .giftEchop .gigtList table thead td {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); border-right-color: rgb(37, 119, 227); border-right-width: 1px; border-right-style: solid;
+}
+.integral .integralMain .giftEchop .gigtList table strong {
+	color: rgb(255, 0, 0); font-weight: normal;
+}
+.integral .integralMain .giftEchop .gigtList table em {
+	color: rgb(85, 176, 12); font-style: normal;
+}
+.integralMain .giftEchop .useAds {
+	padding-top: 10px;
+}
+.integralMain .giftEchop .useAds dl {
+	margin-top: 20px;
+}
+.integralMain .giftEchop .useAds dl dt {
+	width: 160px; text-align: right; line-height: 30px; font-size: 14px; float: left; display: block;
+}
+.integralMain .giftEchop .useAds dl dd {
+	margin-left: 170px;
+}
+.integralMain .giftEchop .useAds dl dd .textIn {
+	padding: 0px 10px; border: 1px solid rgb(219, 219, 219); border-image: none; width: 280px; height: 30px;
+}
+.integralMain .giftEchop .useAds dl dd textarea {
+	border: 1px solid rgb(219, 219, 219); border-image: none; width: 300px; height: 100px;
+}
+.integralMain .giftEchop .useAds dl dd .chooseUser {
+	width: 100px; height: 27px; display: inline-block; position: relative;
+}
+.integralMain .giftEchop .useAds dl dd .chooseUser a {
+	background: rgb(255, 153, 0); width: 100px; height: 27px; text-align: center; color: rgb(255, 255, 255); line-height: 27px; font-size: 14px; display: block;
+}
+.integralMain .giftEchop .useAds dl dd .chooseUser a:hover {
+	background: rgb(231, 139, 0); text-decoration: none;
+}
+.integralMain .giftEchop .useAds dl dd .chooseUser em {
+	background: url("../images/sanj_left_border.png") no-repeat 0px 0px; top: 5px; width: 12px; height: 18px; right: -31px; display: block; position: absolute; z-index: 7;
+}
+.integralMain .giftEchop .useAds dl dd .chooseUser .userList {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(37, 119, 227); border-image: none; left: 130px; top: -12px; width: 160px; display: block; position: absolute; z-index: 6;
+}
+.integralMain .giftEchop .useAds dl dd .chooseUser .userList span {
+	padding-bottom: 4px; display: block;
+}
+.integralMain .giftEchop .useAds dl dd a {
+	background: rgb(255, 153, 0); width: 120px; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; margin-left: 15px; vertical-align: middle; display: inline-block;
+}
+.integralMain .giftEchop .useAds dl dd a:hover {
+	background: rgb(227, 138, 4); text-decoration: none;
+}
+.integralMain .giftEchop .useAds p {
+	background: url("../images/icon_7.png") no-repeat 0px 30px; padding: 26px 0px 50px 30px; width: 500px; line-height: 25px; font-size: 14px; margin-left: 100px;
+}
+.giftDetail {
+	padding-top: 20px;
+}
+.giftDetail h3 {
+	margin-bottom: 20px;
+}
+.giftDetail .gigtImg {
+	width: 272px; float: left;
+}
+.giftDetail .gigtImg .big {
+	border: 1px solid rgb(223, 223, 223); border-image: none; width: 270px; height: 270px; margin-bottom: 10px;
+}
+.giftDetail .gigtImg .small a {
+	margin: 0px 5px 5px 0px; border: 1px solid rgb(223, 223, 223); border-image: none; width: 60px; height: 60px; float: left; display: block;
+}
+.giftDetail .gigtImg .small a.current {
+	border: 1px solid rgb(255, 153, 0); border-image: none;
+}
+.giftDetail .giftIngo {
+	width: 470px; float: right;
+}
+.giftDetail .giftIngo h1 {
+	font-size: 20px;
+}
+.giftDetail .giftIngo h5 {
+	padding: 5px 0px; color: rgb(216, 216, 216); font-size: 14px; border-bottom-color: rgb(223, 223, 223); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.giftDetail .giftIngo dl {
+	font-size: 14px; margin-top: 10px;
+}
+.giftDetail .giftIngo dl dt {
+	width: 85px; height: 26px; text-align: justify; line-height: 26px; float: left; display: block;
+}
+.giftDetail .giftIngo dl dd {
+	line-height: 26px; margin-left: 95px; min-height: 26px;
+}
+.giftDetail .giftIngo dl dd strong {
+	color: rgb(255, 153, 0); font-weight: normal; margin-right: 5px;
+}
+.giftDetail .giftIngo dl dd em {
+	color: rgb(255, 0, 0); font-style: normal; margin-right: 5px;
+}
+.giftDetail .giftIngo dl dd .buyNum {
+	border: 1px solid rgb(207, 207, 207); border-image: none; width: 100px; height: 24px;
+}
+.giftDetail .giftIngo dl dd .buyNum a {
+	background: rgb(245, 245, 245); width: 24px; height: 24px; text-align: center; line-height: 21px; font-size: 20px; float: left; display: block;
+}
+.giftDetail .giftIngo dl dd .buyNum a:hover {
+	text-decoration: none;
+}
+.giftDetail .giftIngo dl dd .buyNum input {
+	border-width: medium 1px; border-style: none solid; border-color: currentColor rgb(207, 207, 207); padding: 0px 5px; border-image: none; width: 40px; height: 24px; text-align: center; line-height: 24px; float: left; display: block;
+}
+.giftDetail .giftIngo .doBtn {
+	background: rgb(255, 153, 0); width: 160px; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-size: 14px; margin-top: 10px; display: block;
+}
+.giftDetail .giftIngo .doBtn:hover {
+	background: rgb(227, 138, 4); text-decoration: none;
+}
+.giftDetail .giftIngo p {
+	background: url("../images/icon_9.png") no-repeat left; padding-left: 20px; font-size: 12px; margin-top: 10px;
+}
+#inputSlider {
+	margin: 0px 10px; width: 150px; vertical-align: middle; display: inline-block;
+}
+.giftDetail .moreDetail {
+	margin-top: 30px;
+}
+.giftDetail .moreDetail h5 {
+	height: 33px; margin-bottom: 15px; border-bottom-color: rgb(37, 119, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.giftDetail .moreDetail h5 a {
+	background: rgb(255, 255, 255); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(37, 119, 227) rgb(37, 119, 227) currentColor; padding: 0px 15px; border-image: none; height: 32px; color: rgb(37, 119, 227); line-height: 32px; font-size: 14px; margin-right: 2px; float: left; display: block;
+}
+.giftDetail .moreDetail h5 a.current {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255);
+}
+.giftDetail .moreDetail .show p {
+	line-height: 23px; padding-bottom: 10px; font-size: 14px;
+}
+.list708 .crumbs {
+	padding: 10px 0px; margin-bottom: 10px;
+}
+.list708 .each {
+	background: rgb(245, 245, 245); border: 1px solid rgb(216, 216, 216); border-image: none; margin-bottom: 30px;
+}
+.list708 .each .info {
+	padding: 65px 15px 0px; width: 250px; float: left; position: relative;
+}
+.list708 .each .info h3 {
+	background: url("../images/bj_1.png") no-repeat 0px 0px; left: -2px; top: -12px; width: 228px; height: 60px; text-align: center; color: rgb(255, 255, 255); line-height: 60px; font-size: 20px; display: block; position: absolute;
+}
+.list708 .each .info p {
+	height: 160px; padding-bottom: 15px;
+}
+.list708 .each .info div {
+	height: 25px; line-height: 25px; font-size: 14px;
+}
+.list708 .each .info div a {
+	background: rgb(255, 153, 0); padding: 0px 10px; height: 25px; color: rgb(255, 255, 255); float: right; display: block;
+}
+.list708 .each .show {
+	float: right;
+}
+.list708 .imgRight .info {
+	float: right;
+}
+.list708 .imgRight .show {
+	float: left;
+}
+.list708 .imgRight .info h3 {
+	background: url("../images/bj_2.png") no-repeat 0px 0px; left: auto; right: -2px;
+}
+#copyrightDetail {
+	background: rgb(255, 255, 255); margin: -260px 0px 0px -360px; left: 50%; top: 50%; width: 700px; height: 500px; position: fixed; z-index: 999999;
+}
+#copyrightDetail .detailMain {
+	padding: 10px; width: 680px; height: 480px; overflow: hidden; -ms-overflow-y: auto;
+}
+#copyrightDetail .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: 0px; width: 31px; height: 30px; right: -35px; text-indent: -9999px; display: block; position: absolute;
+}
+#hotelIntroduction {
+	background: rgb(255, 255, 255); margin: -260px 0px 0px -360px; left: 50%; top: 50%; width: 700px; height: 500px; position: fixed; z-index: 999999;
+}
+#hotelIntroduction .detailMain {
+	padding: 10px; width: 680px; height: 480px; overflow: hidden; -ms-overflow-y: auto;
+}
+#hotelIntroduction .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: 0px; width: 31px; height: 30px; right: -35px; text-indent: -9999px; display: block; position: absolute;
+}
+#hotelMap {
+	background: rgb(255, 255, 255); margin: -260px 0px 0px -360px; left: 50%; top: 50%; width: 700px; height: 520px; position: fixed; z-index: 999999;
+}
+#hotelMap .detailMain {
+	padding: 10px; width: 680px; height: 500px; overflow: hidden; -ms-overflow-y: auto;
+}
+#hotelMap .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: 0px; width: 31px; height: 30px; right: -35px; text-indent: -9999px; display: block; position: absolute;
+}
+.home .homeMain .comment {
+	padding: 10px 10px 40px;
+}
+.comment .hotalName {
+	padding: 10px; border-bottom-color: rgb(203, 203, 203); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.comment .hotalName p {
+	color: rgb(93, 93, 93); line-height: 1.5em; font-size: 1.3em;
+}
+.comment .hotalName em {
+	color: rgb(255, 144, 0); font-style: normal; margin-left: 10px;
+}
+.comment .hotalName span {
+	color: rgb(255, 144, 0); float: right;
+}
+.comment .ping {
+	padding: 10px; border-bottom-color: rgb(203, 203, 203); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.comment .ping .pingChoose a {
+	margin: 0px 10px 10px 0px; border: 1px solid rgb(159, 159, 159); border-image: none; width: 80px; height: 30px; text-align: center; color: rgb(159, 159, 159); line-height: 30px; font-size: 1.3em; float: left; display: block;
+}
+.comment .ping .pingChoose a.current {
+	border: 1px solid rgb(255, 144, 0); border-image: none; color: rgb(255, 144, 0);
+}
+.comment .ping dl {
+	height: 17px; margin-top: 10px;
+}
+.comment .ping dl dt {
+	width: 80px; height: 17px; color: rgb(150, 150, 150); line-height: 17px; font-size: 1.2em; float: left; display: block;
+}
+.comment .ping dl dd {
+	margin-left: 80px;
+}
+.comment .ping dl dd span {
+	width: 34px; color: rgb(255, 144, 0); line-height: 17px; font-size: 1.2em; display: inline-block;
+}
+.comment .ping dl dd div {
+	vertical-align: middle; display: inline-block;
+}
+.comment .other {
+	padding: 10px;
+}
+.comment .other h3 {
+	color: rgb(93, 93, 93); font-size: 1.3em;
+}
+.comment .other textarea {
+	margin: 15px 0px; border: 1px solid rgb(203, 203, 203); border-image: none; width: 100%; height: 100px; color: rgb(157, 157, 157); font-size: 1.2em; display: block; box-sizing: border-box;
+}
+.comment .other a {
+	background: rgb(255, 144, 0); border-radius: 3px; height: 35px; text-align: center; color: rgb(255, 255, 255); line-height: 35px; font-size: 1.4em; display: block;
+}
+.showLoving .about725 {
+	border: 1px solid rgb(228, 228, 228); border-image: none; width: 792px; float: right;
+}
+.showLoving .about725 .aboutHs h3 {
+	padding: 10px; color: rgb(131, 97, 56); font-size: 14px;
+}
+.showLoving .about725 .aboutHs p {
+	padding: 0px 10px 10px;
+}
+.showLoving .about725 .each {
+	padding: 20px;
+}
+.showLoving .about725 .bg_1 {
+	background: rgb(245, 245, 245);
+}
+.showLoving .about725 .each .leftL {
+	padding: 20px; width: 80px; float: left;
+}
+.showLoving .about725 .each .rightC {
+	width: 630px; float: right;
+}
+.showLoving .about725 .each .rightC h4 {
+	color: rgb(131, 97, 56); font-size: 16px;
+}
+.showLoving .about725 .each .rightC p {
+	padding-top: 10px;
+}
+.showLoving .about725 .each .rightC p.more {
+	text-align: right;
+}
+.showLoving .about802 {
+	border: 1px solid rgb(228, 228, 228); border-image: none; width: 794px; float: right;
+}
+.showLoving .about802 .mainPro {
+	width: 794px; height: 380px;
+}
+.showLoving .about802 .mainPro .show {
+	display: none;
+}
+.showLoving .about802 .mainPro .show .img_slider {
+	margin: 0px auto; width: 794px; height: 380px; overflow: hidden; position: relative;
+}
+.showLoving .about802 .mainPro .show .img_slider .slider_content {
+	left: 0px; top: 0px; width: 10000px; height: 380px; position: absolute; z-index: 5;
+}
+.showLoving .about802 .mainPro .show .img_slider .slider_content .each {
+	margin: 0px; padding: 0px; float: left; display: inline-block; position: relative;
+}
+.showLoving .about802 .mainPro .show .img_slider .slider_content .each span {
+	background: rgba(0, 0, 0, 0.5); padding: 15px; width: 450px; height: 100px; right: 20px; bottom: 20px; color: rgb(255, 255, 255); font-size: 16px; position: absolute;
+}
+.showLoving .about802 .mainPro .show .img_slider .slider_content .each span strong {
+	color: rgb(255, 255, 0); font-weight: normal;
+}
+.showLoving .about802 .mainPro .show .img_slider a.prev {
+	background: url("../images/next_prev_bj.png") no-repeat rgb(102, 102, 102); top: 130px; width: 45px; height: 90px; text-indent: -9999px; display: block; position: absolute; z-index: 6; cursor: pointer; opacity: 0.3;
+}
+.img_slider a.next {
+	background: url("../images/next_prev_bj.png") no-repeat rgb(102, 102, 102); top: 130px; width: 45px; height: 90px; text-indent: -9999px; display: block; position: absolute; z-index: 6; cursor: pointer; opacity: 0.3;
+}
+.showLoving .about802 .mainPro .show .img_slider a.prev {
+	background-position: 0px 0px; left: 20px;
+}
+.showLoving .about802 .mainPro .show .img_slider a.next {
+	background-position: -45px 0px; right: 20px;
+}
+.showLoving .about802 .aboutChoose {
+	height: 60px; margin-top: 10px;
+}
+.showLoving .about802 .aboutChoose a {
+	background: rgb(239, 239, 239); width: 158px; height: 60px; text-align: center; color: rgb(70, 70, 70); line-height: 58px; font-size: 14px; border-right-color: rgb(227, 225, 225); border-right-width: 1px; border-right-style: solid; float: left; display: block;
+}
+.showLoving .about802 .aboutChoose a.noLine {
+	border: currentColor; border-image: none;
+}
+.showLoving .about802 .aboutChoose a:hover {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); text-decoration: none;
+}
+.showLoving .about802 .aboutChoose a.current {
+	background: rgb(37, 119, 227); color: rgb(255, 255, 255); text-decoration: none;
+}
+.showLoving .about802 dl {
+	padding: 15px 0px; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.showLoving .about802 dl dt {
+	width: 155px; float: left; display: block;
+}
+.showLoving .about802 dl dd {
+	padding-right: 170px; font-size: 14px; margin-left: 165px; position: relative;
+}
+.showLoving .about802 dl dd h3 {
+	color: rgb(37, 119, 227); padding-bottom: 8px; font-weight: bold;
+}
+.showLoving .about802 dl dd h3 span {
+	margin-right: 10px;
+}
+.showLoving .about802 dl dd h3 img {
+	margin-top: -1px; vertical-align: middle;
+}
+.showLoving .about802 dl dd p {
+	padding-bottom: 8px;
+}
+.showLoving .about802 dl dd .book {
+	top: 0px; right: 15px; position: absolute;
+}
+.showLoving .about802 dl dd .book span {
+	text-align: center; color: rgb(255, 153, 0); font-size: 18px; display: block;
+}
+.showLoving .about802 dl dd .book a {
+	background: rgb(255, 153, 0); margin: 10px auto; border-radius: 3px; width: 80px; height: 28px; text-align: center; color: rgb(255, 255, 255); line-height: 27px; display: block;
+}
+.showLoving .about802 dl dd .book a:hover {
+	background: rgb(229, 142, 12); text-decoration: none;
+}
+.home .homeMain .orderDetail .hotgift {
+	margin-top: 30px;
+}
+.home .homeMain .orderDetail .hotgift h3 {
+	background: rgb(175, 210, 255); padding: 0px 10px; height: 38px; color: rgb(255, 255, 255); line-height: 38px; font-size: 14px;
+}
+.home .homeMain .orderDetail .hotgift h3 a {
+	color: rgb(255, 255, 255); float: right;
+}
+.home .homeMain .orderDetail .hotgift .giftBox {
+	margin: 15px auto; width: 750px; overflow: hidden;
+}
+.home .homeMain .orderDetail .hotgift .giftBox .gift {
+	width: 800px;
+}
+.home .homeMain .orderDetail .hotgift .giftBox .gift .each {
+	width: 155px; margin-right: 43px; float: left;
+}
+.home .homeMain .orderDetail .hotgift .giftBox .gift .each .aImg {
+	border: 1px solid rgb(234, 234, 234); border-image: none; width: 153px; height: 153px; margin-bottom: 5px; display: block;
+}
+.home .homeMain .orderDetail .hotgift .giftBox .gift .each p {
+	height: 20px; line-height: 20px; overflow: hidden;
+}
+.home .homeMain .orderDetail .hotgift .giftBox .gift .each p.other {
+	color: rgb(255, 153, 0);
+}
+.home .homeMain .orderDetail .hotgift .giftBox .gift .each .buyBtn {
+	background: rgb(255, 153, 0); height: 28px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; font-size: 14px; margin-top: 7px; display: block;
+}
+.home .homeMain .orderDetail .hotgift .giftBox .gift .each .buyBtn:hover {
+	background: rgb(232, 139, 0); text-decoration: none;
+}
+.home .homeMain .orderDetail .hotgift #slider {
+	margin: 15px auto 0px;
+}
+.copyrightDetail {
+	background: rgb(255, 255, 255); margin: -260px 0px 0px -360px; border: 1px solid rgb(37, 119, 227); border-image: none; left: 50%; top: 50%; width: 700px; height: 500px; position: fixed; z-index: 999999;
+}
+.copyrightDetail .detailMain {
+	padding: 10px; width: 680px; height: 480px; overflow: hidden; -ms-overflow-y: auto;
+}
+.copyrightDetail .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: 0px; width: 31px; height: 30px; right: -35px; text-indent: -9999px; display: block; position: absolute;
+}
+.copyrightDetail .sure {
+	background: rgb(255, 153, 0); margin: 10px auto 0px; width: 135px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 14px; display: block;
+}
+.copyrightDetail .sure:hover {
+	background: rgb(213, 129, 3); text-decoration: none;
+}
+.reCheckCodeArea {
+	background: rgb(255, 255, 255); margin: -260px 0px 0px -360px; border: 1px solid rgb(37, 119, 227); border-image: none; left: 50%; top: 50%; width: 700px; height: 500px; position: fixed; z-index: 999999;
+}
+.reCheckCodeArea .detailMain {
+	padding: 10px; width: 680px; height: 480px; overflow: hidden; -ms-overflow-y: auto;
+}
+.reCheckCodeArea .close {
+	background: url("../images/ky_icon_bg.png") no-repeat -150px -49px; top: 0px; width: 31px; height: 30px; right: -35px; text-indent: -9999px; display: block; position: absolute;
+}
+.reCheckCodeArea .sure {
+	background: rgb(255, 153, 0); margin: 10px auto 0px; width: 135px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 14px; display: block;
+}
+.reCheckCodeArea .sure:hover {
+	background: rgb(213, 129, 3); text-decoration: none;
+}

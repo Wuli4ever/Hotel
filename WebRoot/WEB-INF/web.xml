@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<servlet-name>FileUpload</servlet-name>
+		<servlet-class>
+			hotel.util.FileUpload
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FileUpload</servlet-name>
+		<url-pattern>/FileUpload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FoodUpload</servlet-name>
+		<servlet-class>
+			hotel.util.FoodUpload
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FoodUpload</servlet-name>
+		<url-pattern>/FoodUpload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>android</servlet-name>
+		<servlet-class>
+			hotel.util.Android
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>android</servlet-name>
+		<url-pattern>/android</url-pattern>
+	</servlet-mapping>
+ 	
+ 	<servlet>
+		<servlet-name>userandroid</servlet-name>
+		<servlet-class>
+			hotel.android.UserAndroid
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>userandroid</servlet-name>
+		<url-pattern>/UserAndroid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>roomandroid</servlet-name>
+		<servlet-class>
+			hotel.android.RoomAndroid
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>roomandroid</servlet-name>
+		<url-pattern>/RoomAndroid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>bookandroid</servlet-name>
+		<servlet-class>
+			hotel.android.BookAndroid
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>bookandroid</servlet-name>
+		<url-pattern>/BookAndroid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registandroid</servlet-name>
+		<servlet-class>
+			hotel.android.RegistAndroid
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>registandroid</servlet-name>
+		<url-pattern>/RegistAndroid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>foodandroid</servlet-name>
+		<servlet-class>
+			hotel.android.FoodAndroid
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>foodandroid</servlet-name>
+		<url-pattern>/FoodAndroid</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Roomidandroid</servlet-name>
+		<servlet-class>
+			hotel.android.RoomidAndroid
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Roomidandroid</servlet-name>
+		<url-pattern>/RoomIdAndroid</url-pattern>
+	</servlet-mapping>
+</web-app>
